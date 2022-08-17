@@ -1,14 +1,5 @@
 const {DateTime } = require("luxon");
-// const Image = require("@11ty/eleventy-img");
-
-// (async () => {
-//   let url = "./src/assets/blog/article-1.jpg";
-//   let stats = await Image(url, {
-//     widths: [300]
-//   });
-
-//     console.log( stats );
-//   })();
+const Image = require("@11ty/eleventy-img");
 
 module.exports = function(eleventyCongfig) {
 
@@ -20,44 +11,44 @@ module.exports = function(eleventyCongfig) {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     })
 
-    // eleventyCongfig.addNunjucksAsyncShortcode("Image", async (src, alt) => {
-    //   if (!alt) {
-    //     throw new Error(`Missing \`alt\` on myImage from: ${src}`);
-    //   }
+    eleventyCongfig.addNunjucksAsyncShortcode("Image", async (src, alt) => {
+      if (!alt) {
+        throw new Error(`Missing \`alt\` on myImage from: ${src}`);
+      }
   
-    //   let stats = await Image(src, {
-    //     widths: [25, 320, 640, 960, 1200, 1800, 2400],
-    //     formats: ["jpeg", "webp"],
-    //     urlPath: "/assets/blog/",
-    //     outputDir: "_site/assets/blog/",
-    //   });
+      let stats = await Image(src, {
+        widths: [25, 320, 640, 960, 1200, 1800, 2400],
+        formats: ["jpeg", "webp"],
+        urlPath: "/assets/blog/",
+        outputDir: "./public/assets/blog/",
+      });
   
-    //   let lowestSrc = stats["jpeg"][0];
+      let lowestSrc = stats["jpeg"][0];
   
-    //   const srcset = Object.keys(stats).reduce(
-    //     (acc, format) => ({
-    //       ...acc,
-    //       [format]: stats[format].reduce(
-    //         (_acc, curr) => `${_acc} ${curr.srcset} ,`,
-    //         ""
-    //       ),
-    //     }),
-    //     {}
-    //   );
+      const srcset = Object.keys(stats).reduce(
+        (acc, format) => ({
+          ...acc,
+          [format]: stats[format].reduce(
+            (_acc, curr) => `${_acc} ${curr.srcset} ,`,
+            ""
+          ),
+        }),
+        {}
+      );
   
-    //   const source = `<source type="image/webp" srcset="${srcset["webp"]}" >`;
+      const source = `<source type="image/webp" srcset="${srcset["webp"]}" >`;
   
-    //   const img = `<img
-    //     loading="lazy"
-    //     alt="${alt}"
-    //     src="${lowestSrc.url}"
-    //     sizes='(min-width: 1024px) 1024px, 100vw'
-    //     srcset="${srcset["jpeg"]}"
-    //     width="${lowestSrc.width}"
-    //     height="${lowestSrc.height}">`;
+      const img = `<img
+        loading="lazy"
+        alt="${alt}"
+        src="${lowestSrc.url}"
+        sizes='(min-width: 1024px) 1024px, 100vw'
+        srcset="${srcset["jpeg"]}"
+        width="${lowestSrc.width}"
+        height="${lowestSrc.height}">`;
   
-    //   return `<div class="image-wrapper"><picture> ${source} ${img} </picture></div>`;
-    // });
+      return `<div class="image-wrapper"><picture> ${source} ${img} </picture></div>`;
+    });
 
       // Return your Object options:
   return {
