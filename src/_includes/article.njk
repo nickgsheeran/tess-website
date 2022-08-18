@@ -17,14 +17,18 @@ layout: 'base.njk'
     
     {{ content | safe }}
 
+{# the working non-video stuff is in your notes #}
     {%- for imager in images -%}
       {%set imgP = imager.src %}
-      {% if videoB %} 
+      {% if imager.videoB %} 
+        {# hello video #}
         <video playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="{{ imgP }}"></video>
       {% else %}
+        {# hello image #}
         {%set imgA = imager.alt %}
         {% Image ""+imgP, ""+imgA  %}
       {% endif %}
+
     {%- endfor -%}
 
 </div>
