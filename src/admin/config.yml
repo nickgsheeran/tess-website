@@ -25,9 +25,8 @@ collections:
         name: "images" 
         widget: "list"
         fields:
+          - { label: "Video?", name: "videoB", widget: "string", default: false }
           - { label: "Source", name: "src", widget: "string" }
           - { label: "Alt Text", name: "alt", widget: "string" }
-        default:
-          - { src: "/img/tennis.jpg", alt: "Tennis" }
-          - { src: "/img/footbar.jpg", alt: "Football" }
+          - { label: "Poster Source if Video", name: "Psrc", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
