@@ -25,3 +25,5 @@ Mauris nunc congue nisi vitae suscipit tellus mauris. Vitae et leo duis ut. Arcu
 ```
 {% Image "./src/assets/blog/article-1.jpg", "image no 01" %}
 ```
+
+![meave's sex palace](/assets/blog/screen-shot-2022-08-06-at-5.03.45-pm.png "meave's sex palace")
