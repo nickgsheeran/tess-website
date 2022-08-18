@@ -45,7 +45,8 @@ module.exports = function(eleventyCongfig) {
         sizes='(min-width: 1024px) 1024px, 100vw'
         srcset="${srcset["jpeg"]}"
         width="${lowestSrc.width}"
-        height="${lowestSrc.height}">`;
+        height="${lowestSrc.height}"
+        >`;
   
       return `<div class="image-wrapper"><picture> ${source} ${img} </picture></div>`;
     });
