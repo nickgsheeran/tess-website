@@ -1,5 +1,6 @@
 const {DateTime } = require("luxon");
 const Image = require("@11ty/eleventy-img");
+const sharp = require('sharp');
 
 module.exports = function(eleventyCongfig) {
 
@@ -36,14 +37,24 @@ module.exports = function(eleventyCongfig) {
         {}
       );
   
-      const source = `<source type="image/webp" srcset="${srcset["webp"]}" >`;
+      const placeholder = await sharp(lowestSrc.outputPath)
+      .resize({ fit: sharp.fit.inside })
+      .blur()
+      .toBuffer();
+
+      const base64Placeholder = `data:image/png;base64,${placeholder.toString(
+        "base64"
+      )}`;
+
+      const source = `<source type="image/webp" data-srcset="${srcset["webp"]}" >`;
   
       const img = `<img
-        loading="lazy"
+        class="lazy"
         alt="${alt}"
-        src="${lowestSrc.url}"
-        sizes='(min-width: 1024px) 1024px, 100vw'
-        srcset="${srcset["jpeg"]}"
+        src="${base64Placeholder}"
+        data-src="${lowestSrc.url}"
+        data-sizes='(min-width: 1024px) 1024px, 100vw'
+        data-srcset="${srcset["jpeg"]}"
         width="${lowestSrc.width}"
         height="${lowestSrc.height}"
         >`;

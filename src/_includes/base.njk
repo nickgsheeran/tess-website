@@ -16,6 +16,10 @@
         {{ content | safe }}
     </main>
     {% include 'footer.njk' %}
+    <script type="module" async>
+      import Lazyload from "https://cdn.skypack.dev/vanilla-lazyload";
+      const lazyload = new Lazyload();
+    </script>
     <script>
         if (window.netlifyIdentity) {
           window.netlifyIdentity.on("init", user => {
