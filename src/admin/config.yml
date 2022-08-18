@@ -21,7 +21,6 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
       - label: "Images" 
         name: "images" 
         widget: "list"
@@ -31,3 +30,4 @@ collections:
         default:
           - { src: "/img/tennis.jpg", alt: "Tennis" }
           - { src: "/img/footbar.jpg", alt: "Football" }
+      - { label: "Body", name: "body", widget: "markdown" }
