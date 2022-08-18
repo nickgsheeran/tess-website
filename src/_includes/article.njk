@@ -16,6 +16,12 @@ layout: 'base.njk'
     </figure>
     
     {{ content | safe }}
-  
+
+    {%- for imager in images -%}
+        {%set imgP = imager.src %}
+        {%set imgA = imager.alt %}
+        {% Image ""+imgP, ""+imgA  %}
+    {%- endfor -%}
+
 </div>
 </article>
