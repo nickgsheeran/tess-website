@@ -26,9 +26,9 @@ collections:
         name: "images", 
         widget: "list", 
         fields:
-          - { label: "Source", name: "src", widget: "string" }
+          - { label: "Source", name: "src", widget: "string" },
           - { label: "Alt Text", name: "alt", widget: "string" },
         default:
-          - { src: "/img/tennis.jpg", alt: "Tennis" }
+          - { src: "/img/tennis.jpg", alt: "Tennis" },
           - { src: "/img/footbar.jpg", alt: "Football" }
         }
