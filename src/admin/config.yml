@@ -25,7 +25,7 @@ collections:
         name: "images" 
         widget: "list"
         fields:
-          - { label: "Video?", name: "videoB", widget: "string", default: false }
+          - { label: "Video?", name: "videoB", widget: "boolean", default: false }
           - { label: "Source", name: "src", widget: "string" }
           - { label: "Alt Text", name: "alt", widget: "string" }
           - { label: "Poster Source if Video", name: "Psrc", widget: "string" }
