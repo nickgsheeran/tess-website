@@ -28,5 +28,5 @@ collections:
           - { label: "Video?", name: "videoB", widget: "boolean", default: false }
           - { label: "Source", name: "src", widget: "string" }
           - { label: "Alt Text", name: "alt", widget: "string" }
-          - { label: "Poster Source if Video", name: "Psrc", widget: "string" }
+          - { label: "Poster Source if Video", name: "Psrc", widget: "string", default: "no" }
       - { label: "Body", name: "body", widget: "markdown" }
