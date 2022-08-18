@@ -22,8 +22,4 @@ Aliquam vestibulum morbi blandit cursus risus at. Malesuada fames ac turpis eges
 
 Mauris nunc congue nisi vitae suscipit tellus mauris. Vitae et leo duis ut. Arcu cursus euismod quis viverra nibh. Amet mauris commodo quis imperdiet. Condimentum lacinia quis vel eros donec. Enim neque volutpat ac tincidunt vitae semper quis lectus nulla. Faucibus nisl tincidunt eget nullam. Cursus metus aliquam eleifend mi in nulla. Ut placerat orci nulla pellentesque dignissim enim sit amet. Lobortis feugiat vivamus at augue eget arcu dictum. Nunc faucibus a pellentesque sit amet porttitor. Quis varius quam quisque id diam vel quam elementum pulvinar.
 
-```
-{% Image "./src/assets/blog/article-1.jpg", "image no 01" %}
-```
-
 ![meave's sex palace](/assets/blog/screen-shot-2022-08-06-at-5.03.45-pm.png "meave's sex palace")
