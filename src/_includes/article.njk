@@ -21,8 +21,9 @@ layout: 'base.njk'
     {%- for imager in images -%}
       {%set imgP = imager.src %}
       {% if imager.videoB %} 
-        {# hello video #}
-        <video playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="{{ imgP }}"></video>
+        hello video
+        {# {{imager.pSrc}} #}
+        <video poster="{{imager.pSrc}}" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="{{ imgP }}"></video>
       {% else %}
         {# hello image #}
         {%set imgA = imager.alt %}
