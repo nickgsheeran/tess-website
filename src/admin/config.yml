@@ -22,6 +22,12 @@ collections:
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Images", 
-        name: "images", 
-        widget: "list" }
+      - label: "Images" 
+        name: "images" 
+        widget: "list"
+        fields:
+          - { label: "Source", name: "src", widget: "string" }
+          - { label: "Alt Text", name: "alt", widget: "string" }
+        default:
+          - { src: "/img/tennis.jpg", alt: "Tennis" }
+          - { src: "/img/footbar.jpg", alt: "Football" }
