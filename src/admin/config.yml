@@ -24,11 +24,9 @@ collections:
       - label: "Images" 
         name: "images" 
         widget: "list"
-        summary: '{{fields.alt}}'
         fields:
-          - { label: "Video?", name: "video-content", widget: "boolean", default: false }
+          - { label: "Video?", name: "videoB", widget: "boolean", default: false }
           - { label: "Source", name: "src", widget: "string" }
-          - { label: "Second source for video formats", name: "src2", widget: "string" }
-          - { label: "Alt Text", name: "alt", widget: "string", default: "no alt text" }
-          - { label: "Poster Source if Video", name: "pSrc", widget: "string", default: "n/a" }
+          - { label: "Alt Text", name: "alt", widget: "string" }
+          - { label: "Poster Source if Video", name: "pSrc", widget: "string", default: "no" }
       - { label: "Body", name: "body", widget: "markdown" }

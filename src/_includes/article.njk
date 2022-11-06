@@ -20,13 +20,10 @@ layout: 'base.njk'
 {# the working non-video stuff is in your notes #}
     {%- for imager in images -%}
       {%set imgP = imager.src %}
-      {%set imgP2 = imager.src2 %}
-      {% if imager.video-content %} 
+      {% if imager.videoB %} 
         hello video
         {# {{imager.pSrc}} #}
-        <video poster="{{imager.pSrc}}" playsinline="" loop="loop" autoplay="autoplay" muted="muted">
-          <source src="{{ imgP }}">
-        </video>
+        <video poster="{{imager.pSrc}}" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="{{ imgP }}"></video>
       {% else %}
         {# hello image #}
         {%set imgA = imager.alt %}
