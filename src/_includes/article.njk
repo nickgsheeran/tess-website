@@ -23,7 +23,7 @@ layout: 'base.njk'
       {%set webM = imager.src2 %}
       {% if imager.videoB %} 
         hello video
-        {% if imager.src2 %} 
+        {% if imager.src2 != undefined %} 
           <video poster="{{imager.pSrc}}" playsinline="" loop="loop" autoplay="autoplay" muted="muted">
             <source src="{{ src2 }}" type="video/webm">
             <source src="{{ src }}" type="video/mp4">
