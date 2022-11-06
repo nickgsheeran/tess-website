@@ -25,8 +25,8 @@ layout: 'base.njk'
         hello video
         {% if imager.src2 != undefined %} 
           <video poster="{{imager.pSrc}}" playsinline="" loop="loop" autoplay="autoplay" muted="muted">
-            <source src="{{ src2 }}" type="video/webm">
-            <source src="{{ src }}" type="video/mp4">
+            <source src="{{ webM }}" type="video/webm">
+            <source src="{{ imgP }}" type="video/mp4">
           </video>
         {% else %}
           <video poster="{{imager.pSrc}}" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="{{ imgP }}"></video>
