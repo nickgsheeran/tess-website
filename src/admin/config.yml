@@ -24,6 +24,7 @@ collections:
       - label: "Images" 
         name: "images" 
         widget: "list"
+        summary: '{{fields.alt}}'
         fields:
           - { label: "Video?", name: "videoB", widget: "boolean", default: false }
           - { label: "Source", name: "src", widget: "string" }
