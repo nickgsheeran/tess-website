@@ -8,6 +8,9 @@ layout: 'base.njk'
     <h1 class="article-title">
       {{ title }}
     </h1>
+    <h2>
+      {{ description }}
+    </h2>
     <figure class="main-article__figure">
       <img src="{{ image }}" alt="{{ imageAlt }}">
       <figcaption>
@@ -31,7 +34,6 @@ layout: 'base.njk'
         {% else %}
           <video poster="{{imager.pSrc}}" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="{{ imgP }}"></video>
         {% endif %}
-
 
       {% else %}
         {# hello image #}
