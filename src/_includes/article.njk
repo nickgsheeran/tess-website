@@ -12,8 +12,7 @@ layout: 'base.njk'
       {{ description }}
     </h2>
     <figure class="main-article__figure">
-      {% Image "./src"+image, imageAlt  %}
-      <img src="{{ image }}" alt="{{ imageAlt }}">
+      {% Image "./public"+image, imageAlt  %}
       <figcaption>
         {{ imageAlt }}
       </figcaption>
