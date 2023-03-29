@@ -41,7 +41,8 @@ collections:
     create: false
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - { label: "Tags", name: "tags", widget: "list", default: ["infosrc"] }
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Header description", name: "head-desc", widget: "string" }
+      - { label: "Header description", name: "headdesc", widget: "string" }
       - { label: "Contact email address", name: "email", widget: "string" }
       - { label: "Instagram handle", name: "social", widget: "string" }

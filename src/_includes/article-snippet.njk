@@ -1,6 +1,12 @@
 <li>
 <article class="snippet">
     <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}">
+        {# {% if post.data.image != undefined %} 
+        {{ post.data.image }}
+      {% endif %} #}
+    {# {% Image "./assets/blog/bridge-poster.jpg", "poo"  %} #}
+    {% Image post.data.image, post.data.imageAlt %}
+    {# {% Image "{{post.data.image}}", "{{post.data.imageAlt}}" %} #}
     <h3 class="snippet_title"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
     <p class="snippet__meta">by <span>{{ post.data.author }}</span> on <span>{{ post.date | postDate }}</span></p>
     <p class="snippet__body">{{ post.data.description }}</p> 

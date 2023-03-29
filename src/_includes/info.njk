@@ -4,11 +4,12 @@ layout: 'base.njk'
 
 <article class="main-article">
 <div class="container container--narrow flow">
-  
+  <p>
+    {{ content | safe }}
     {{ title }}
     {{ head-desc }}
     {{ email }}
     {{ social }}
-
+  </p>
 </div>
 </article>

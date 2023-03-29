@@ -4,12 +4,15 @@ layout: "base.njk"
 ---
 <section id="info-desc">
   <h2>
-    {# {%- for infosrc in collections.info-%} #}
-      {# {% include 'info.njk' %} #}
-    {# {%- endfor -%} #}
+    {%- for infosrc in collections.infosrc -%}
+        {{ infosrc.data.headdesc }}
+        {# {% include 'article-snippet-info.njk' %} #}
+        {# {% include 'info.njk' %} #}
+    {%- endfor -%}
+
     {# {{ collections.site-info.theinfo }} #}
-    {% import "info.njk" as info %}
-    {{ info.title }}
+    {# {% import "info.njk" as info %}
+    {{ info.title }} #}
 
   </h2>
 </section>
@@ -17,7 +20,7 @@ layout: "base.njk"
 <section class="articles">
   <div class="container flow">
     <ul role="list" class="articles__list flow"><li>
-      {%- for post in collections.featured | reverse -%}
+      {%- for post in collections.post | reverse -%}
         {% include 'article-snippet.njk' %}
       {%- endfor -%}
     </ul>
