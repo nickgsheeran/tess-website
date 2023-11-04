@@ -20,8 +20,8 @@ module.exports = function(eleventyCongfig) {
       let stats = await Image(src, {
         widths: [25, 320, 640, 960, 1200, 1800, 2400],
         formats: ["jpeg", "webp"],
-        urlPath: "/assets/blog/",
-        outputDir: "./public/assets/blog/",
+        urlPath: "/assets/portfolio/",
+        outputDir: "./public/assets/portfolio/",
       });
   
       let lowestSrc = stats["jpeg"][0];

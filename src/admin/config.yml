@@ -2,15 +2,15 @@ backend:
   # Use netlify identity as backend
   name: git-gateway
   branch: main
-media_folder: "src/assets/blog"
-public_folder: "/assets/blog"
+media_folder: "src/assets/portfolio"
+public_folder: "/assets/portfolio"
 publish_mode: editorial_workflow
 
 # These lines should *not* be indented, directories named from root
 collections:
-  - label: "Blog"
-    name: "blog"
-    folder: "src/blog"
+  - label: "portfolio"
+    name: "portfolio"
+    folder: "src/portfolio"
     create: true
     slug: "{{slug}}"
     fields:
