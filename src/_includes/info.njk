@@ -3,10 +3,9 @@ layout: 'base.njk'
 permalink: "/{{ title | slugify }}/"
 ---
 
-<article class="main-article">
-<div class="container container--narrow flow">
-  {# <p> #}
-    {{ content | safe }}
-  {# </p> #}
+<div id="about-wrapper">
+  {{ content | safe }}
+</div>
+
 </div>
 </article>

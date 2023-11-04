@@ -1,5 +1,5 @@
 {
-  "name": "blog-starter2",
+  "name": "tess-website",
   "version": "1.0.0",
   "description": "These are the starting files used by [Kevin Powell](https://kevinpowell.co) to create a personal blog site for the [Codementor](https://www.codementor.io/) DevProjects Challenge, [Create a fast and secure blog using JAMStack](https://www.codementor.io/projects/web/create-a-fast-and-secure-blog-using-jamstack-c93coupnxb). You are free to use them however you want to get started with the challenge, if you'd like to start working on creating the site without worrying about the content itself.",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nickgsheeran/blog-starter2.git"
+    "url": "git+https://github.com/nickgsheeran/tess-website.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/nickgsheeran/blog-starter2/issues"
+    "url": "https://github.com/nickgsheeran/tess-website/issues"
   },
-  "homepage": "https://github.com/nickgsheeran/blog-starter2#readme",
+  "homepage": "https://github.com/nickgsheeran/tess-website#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
   },
