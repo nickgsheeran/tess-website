@@ -1,3 +1,19 @@
+@font-face {
+  font-family: 'america';
+  src:  url('./assets/type/gt-america-regular.otf') format('opentype'),
+        url('./assets/type/gt-america-regular.woff'), format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'clearface';
+  src:  url('./assets/type/ClearfaceStd-Regular.otf') format('opentype'),
+        url('./assets/type/ClearfaceStd-Regular.woff'), format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 :root {
   --fs-300: 0.9375rem;
   --fs-400: 1.0625rem;
@@ -5,8 +21,8 @@
   --fs-600: 1.875rem;
   --fs-700: 2rem;
 
-  --ff-body: "Roboto", sans-serif;
-  --ff-heading: "Playfair Display", serif;
+  --ff-body: "clearface", sans-serif;
+  --ff-heading: "america", serif;
 
   --fw-400: 400;
   --fw-700: 700;
@@ -77,7 +93,7 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background-color: #F7EEE7;
+  background-color: rgba(254, 255, 204, 1);
 }
 
 /* A elements that don't have a class get default styles */
@@ -103,7 +119,7 @@ input,
 button,
 textarea,
 select {
-  font: inherit;
+  font: inherit; 
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
@@ -203,18 +219,22 @@ section,
   Header
   /////////////////////// */
 
-.page-header {
-  padding: 2em 0;
+.page-header, .site-footer {
+  background-color: rgba(254, 255, 204, 1);
+  position: fixed;
+  width: 100%;
 }
 
 .page-header__content {
-  display: flex;
-  justify-content: space-between;
+  /* display: flex;
+  justify-content: space-between; */
 }
 
 .nav-list {
   margin: 0;
   padding: 0;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .nav-list a {
@@ -228,16 +248,30 @@ section,
   text-decoration: underline;
 }
 
+.nav-row {
+  padding: 0.25rem 1em;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
 /* //////////////////////
   Footer
   /////////////////////// */
 
 .site-footer {
-  --logo-color: currentColor;
-  padding: 2em 0;
-  color: var(--clr-neutral-100);
-  background-color: var(--clr-primary-500);
+  bottom: 0;
   text-align: center;
+}
+
+.site-footer > .nav-list {
+  border-top: 1px solid black;
+  padding: .25rem 1em;
+}
+
+.nav-list > button {
+  background-color: unset;
+  border: none;
+  padding: unset;
 }
 
 /* //////////////////////
@@ -292,14 +326,7 @@ section,
   /////////////////////// */
 
 .snippet {
-  display: grid;
-  gap: 1em;
-  grid-template-areas:
-    "image"
-    "title"
-    "meta"
-    "body"
-    "button";
+  text-align: center;
 }
 
 .snippet__image {

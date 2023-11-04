@@ -1,7 +1,7 @@
 <li>
 <article class="snippet">
     {# <img src="{{ post.data.image }}" alt="{{ post.data.imageAlt }}"> #}
-    <script> console.log("logging workds")</script>
+    <script> console.log("logging works")</script>
     <script> console.log("{{ post.data.imageAlt }} ")</script>
     <script> console.log("{{ post.data.image }} ")</script>
 
@@ -11,8 +11,6 @@
     {# {% Image "./assets/blog/bridge-poster.jpg", "poo"  %} #}
     {# {% Image "./src/"+post.data.image, post.data.imageAlt %} #}
     <h3 class="snippet_title"><a href="{{ post.url }}">{{ post.data.title }}</a></h3>
-    <p class="snippet__meta">by <span>{{ post.data.author }}</span> on <span>{{ post.date | postDate }}</span></p>
     <p class="snippet__body">{{ post.data.description }}</p> 
-    <a href="{{ post.url }}" class="btn btn--primary">Continue Reading</a>
 </article>
 </li>

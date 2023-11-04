@@ -12,7 +12,7 @@ collections:
     name: "blog"
     folder: "src/blog"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
@@ -39,7 +39,7 @@ collections:
     name: "site-info"
     folder: "src/info"
     create: false
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: "{{slug}}"
     fields:
       - { label: "Tags", name: "tags", widget: "list", default: ["infosrc"] }
       - { label: "Title", name: "title", widget: "string" }

@@ -2,20 +2,13 @@
 title: example
 layout: "base.njk"
 ---
-<section id="info-desc">
+{# <section id="info-desc">
   <h2>
     {%- for infosrc in collections.infosrc -%}
         {{ infosrc.data.headdesc }}
-        {# {% include 'article-snippet-info.njk' %} #}
-        {# {% include 'info.njk' %} #}
     {%- endfor -%}
-
-    {# {{ collections.site-info.theinfo }} #}
-    {# {% import "info.njk" as info %}
-    {{ info.title }} #}
-
   </h2>
-</section>
+</section> #}
 
 <section class="articles">
   <div class="container flow">
