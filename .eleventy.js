@@ -12,7 +12,7 @@ module.exports = function(eleventyCongfig) {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     })
 
-    eleventyCongfig.addNunjucksAsyncShortcode("Image", async (src, alt) => {
+    eleventyCongfig.addNunjucksAsyncShortcode("Image", async (src, alt, cls) => {
       if (!alt) {
         throw new Error(`Missing \`alt\` on myImage from: ${src}`);
       }
@@ -57,9 +57,11 @@ module.exports = function(eleventyCongfig) {
         data-srcset="${srcset["jpeg"]}"
         width="${lowestSrc.width}"
         height="${lowestSrc.height}"
-        >`;
-  
-      return `<div class="image-wrapper"><picture> ${source} ${img} </picture></div>`;
+      >`;
+
+    const clss = `${cls}`;
+
+      return `<div class="img-wrapper ${clss}"><picture> ${source} ${img} </picture></div>`;
     });
 
       // Return your Object options:

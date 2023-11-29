@@ -4,22 +4,28 @@ permalink: "/{{ title | slugify }}/"
 ---
 
 <article class="main-article">
-<div class="container container--narrow flow">
+<div class="container flow">
   
+  <section>
+    <figure class="main-article__figure">
+      {% Image "./src/"+image, imageAlt  %}
+    </figure>
+
     <h1 class="article-title">
       {{ title }}
     </h1>
-    <h2>
+    <p>
       {{ description }}
+    </p>
+    <h2>
+      {{ disc }}
     </h2>
-    <figure class="main-article__figure">
-      {% Image "./src/"+image, imageAlt  %}
-      <figcaption>
-        {{ imageAlt }}
-      </figcaption>
-    </figure>
-    
-    {{ content | safe }}
+    <p>
+      {{ collabs }}
+    </p>
+  <section>
+
+  {{ content | safe }}
 
 {# the working non-video stuff is in your notes #}
     {%- for imager in images -%}

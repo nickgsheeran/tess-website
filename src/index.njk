@@ -12,10 +12,12 @@ layout: "base.njk"
 
 <section class="articles">
   <div class="container flow">
-    <ul role="list" class="articles__list flow"><li>
+    <ul role="list" class="articles__list flow">
       {%- for post in collections.post | reverse -%}
-        {% Image "./src/"+post.data.image, post.data.imageAlt  %}
-        {% include 'article-snippet.njk' %}
+        <li>
+          {% Image "./src/"+post.data.image, post.data.imageAlt, "hero-image"%}
+          {% include 'article-snippet.njk' %}
+        </li>
       {%- endfor -%}
     </ul>
   </div>

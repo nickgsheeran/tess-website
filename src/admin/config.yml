@@ -16,12 +16,10 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string" }
-      - { label: "Author", name: "author", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Disciplines", name: "disc", widget: "string" }
-      - { label: "Left info column", name: "l-info", widget: "string" }
-      - { label: "Right info column", name: "r-info", widget: "string" } 
+      - { label: "Collaborators", name: "collabs", widget: "string" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - label: "Images" 
