@@ -15,7 +15,7 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
+      - { label: "Description", name: "description", widget: "markdown" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Disciplines", name: "disc", widget: "string" }
@@ -28,11 +28,40 @@ collections:
         summary: '{{fields.alt}}'
         fields:
           - { label: "Video?", name: "videoB", widget: "boolean", default: false }
-          - { label: "Source-always mp4 for vdiedo", name: "src", widget: "string" }
+          - { label: "Source-always mp4 for video", name: "src", widget: "string" }
           - { label: "video WebM source", name: "src2", widget: "string", required: false }
           - { label: "Poster Source if Video", name: "pSrc", widget: "string", default: "no" }
           - { label: "Alt Text", name: "alt", widget: "string", default: "no alt text!" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Images2" 
+        name: "images2" 
+        widget: "list"
+        summary: 'bla'
+        fields:
+        - label: "Image Row" 
+          name: "img-row" 
+          widget: "object"
+          summary: 'bla'
+          fields:
+          - label: "Margin size"
+            name: "m-size"
+            widget: "select"
+            default: ["small"]
+            options: ["small", "large"]
+          - label: "Layout"
+            name: "layout"
+            widget: "select"
+            default: ["1-col"]
+            options: ["1-col", "2-col-even", "2-col-right", "2-col-left", "3-col"]
+          - label: "Images" 
+            name: "images" 
+            widget: "list"
+            summary: '{{fields.alt}}'
+            fields:
+              - { label: "Video?", name: "videoB", widget: "boolean", default: false }
+              - { label: "Source-always mp4 for video", name: "src", widget: "string" }
+              - { label: "video WebM source", name: "src2", widget: "string", required: false }
+              - { label: "Poster Source if Video", name: "pSrc", widget: "string", default: "no" }
+              - { label: "Alt Text", name: "alt", widget: "string", default: "no alt text!" }
   - label: "Site info"
     name: "site-info"
     folder: "src/info"

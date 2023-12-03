@@ -182,7 +182,6 @@ section,
 .container {
   margin-inline: auto;
   padding-inline: 1.5em;
-  max-width: 85rem;
 }
 
 .container--narrow {
@@ -337,10 +336,17 @@ section,
     flex-wrap: wrap;
   }
 
-  .main-article > .container.flow > * {
-    box-sizing: border-box;
+  .article-intro {
     width: 100%;
-    padding: 8px;
+    padding: 0 16.665% 0 16.665%;
+  }
+
+  .intro-details > * {
+    display: inline-block;
+  }
+
+  #disc {
+    width: 40%;
   }
 
 /* //////////////////////

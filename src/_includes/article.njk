@@ -6,24 +6,26 @@ permalink: "/{{ title | slugify }}/"
 <article class="main-article">
 <div class="container flow">
   
-  <section>
-    <figure class="main-article__figure">
-      {% Image "./src/"+image, imageAlt  %}
-    </figure>
+  <figure class="main-article__figure">
+    {% Image "./src/"+image, imageAlt  %}
+  </figure>
 
+  <section class="article-intro">
     <h1 class="article-title">
       {{ title }}
     </h1>
     <p>
       {{ description }}
     </p>
-    <h2>
-      {{ disc }}
-    </h2>
-    <p>
-      {{ collabs }}
-    </p>
-  <section>
+    <div class="intro-details">
+      <h2 id="disc">
+        {{ disc }}
+      </h2>
+      <p>
+        {{ collabs }}
+      </p>
+    </div>
+  </section>
 
   {{ content | safe }}
 
