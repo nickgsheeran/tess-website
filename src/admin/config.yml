@@ -25,25 +25,15 @@ collections:
       - label: "Images" 
         name: "images" 
         widget: "list"
-        summary: '{{fields.alt}}'
-        fields:
-          - { label: "Video?", name: "videoB", widget: "boolean", default: false }
-          - { label: "Source-always mp4 for video", name: "src", widget: "string" }
-          - { label: "video WebM source", name: "src2", widget: "string", required: false }
-          - { label: "Poster Source if Video", name: "pSrc", widget: "string", default: "no" }
-          - { label: "Alt Text", name: "alt", widget: "string", default: "no alt text!" }
-      - label: "Images2" 
-        name: "images2" 
-        widget: "list"
-        summary: 'bla'
+        summary: 'Images'
         fields:
         - label: "Image Row" 
-          name: "img-row" 
+          name: "imgRow" 
           widget: "object"
-          summary: 'bla'
+          summary: 'Image Row'
           fields:
           - label: "Margin size"
-            name: "m-size"
+            name: "mSize"
             widget: "select"
             default: ["small"]
             options: ["small", "large"]
@@ -52,16 +42,16 @@ collections:
             widget: "select"
             default: ["1-col"]
             options: ["1-col", "2-col-even", "2-col-right", "2-col-left", "3-col"]
-          - label: "Images" 
-            name: "images" 
+          - label: "Image row contents" 
+            name: "images3" 
             widget: "list"
             summary: '{{fields.alt}}'
             fields:
-              - { label: "Video?", name: "videoB", widget: "boolean", default: false }
-              - { label: "Source-always mp4 for video", name: "src", widget: "string" }
-              - { label: "video WebM source", name: "src2", widget: "string", required: false }
-              - { label: "Poster Source if Video", name: "pSrc", widget: "string", default: "no" }
-              - { label: "Alt Text", name: "alt", widget: "string", default: "no alt text!" }
+            - { label: "Video?", name: "videoB", widget: "boolean", default: false }
+            - { label: "Source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 formats for video.", name: "srcb", widget: "string" }
+            - { label: "Video WebM source", name: "src2b", widget: "string", required: false }
+            - { label: "Poster source if Video", name: "pSrc", widget: "string", default: "no" }
+            - { label: "Alt text", name: "alt", widget: "string", default: "visual asset, needs alt text" }
   - label: "Site info"
     name: "site-info"
     folder: "src/info"

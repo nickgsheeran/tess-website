@@ -29,29 +29,23 @@ permalink: "/{{ title | slugify }}/"
 
   {{ content | safe }}
 
-{# the working non-video stuff is in your notes #}
-    {%- for imager in images -%}
-      {%set imgP = imager.src %}
-      {%set webM = imager.src2 %}
-      {% if imager.videoB %} 
-        hello video
-        {% if imager.src2 != undefined %} 
-          <video poster="{{imager.pSrc}}" playsinline="" loop="loop" autoplay="autoplay" muted="muted">
-            <source src="{{ webM }}" type="video/webm">
-            <source src="{{ imgP }}" type="video/mp4">
-          </video>
-        {% else %}
-          <video poster="{{imager.pSrc}}" playsinline="" loop="loop" autoplay="autoplay" muted="muted" src="{{ imgP }}"></video>
-        {% endif %}
-
-      {% else %}
-        {# hello image #}
-        {%set imgA = imager.alt %}
-        {% Image imgP, imgA  %}
-      {% endif %}
-
+    Images:
+    <br>
+    {%- for theImage in images-%}
+    the image's source: {{theImage.src}}
+    <br>
     {%- endfor -%}
-    {# asdf #}
+
+    Images2:
+    <br>
+    {%- for theImage2 in images2 -%}
+      the image row margins: {{theImage2.imgRow.mSize}}
+      <br>
+      {%- for eachImage in theImage2.imgRow.images -%}
+      the image alt: {{eachImage.alt2}}
+      <br>
+      {%- endfor -%}
+    {%- endfor -%}
 
 </div>
 </article>
