@@ -12,7 +12,7 @@ images:
   - imgRow:
       mSize: small
       layout: 1-col
-      images3:
+      imageRowContents:
         - videoB: false
           pSrc: no
           alt: spring
@@ -20,7 +20,7 @@ images:
   - imgRow:
       mSize: small
       layout: 1-col
-      images3:
+      imageRowContents:
         - videoB: false
           pSrc: no
           alt: visual asset, needs alt text
