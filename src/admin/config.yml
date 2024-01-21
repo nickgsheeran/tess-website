@@ -48,8 +48,8 @@ collections:
             summary: '{{fields.alt}}'
             fields:
             - { label: "Video?", name: "videoB", widget: "boolean", default: false }
-            - { label: "Source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 formats for video.", name: "srcb", widget: "string" }
-            - { label: "Video WebM source", name: "src2b", widget: "string", required: false }
+            - { label: "Source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 formats for video.", name: "src", widget: "string" }
+            - { label: "Video WebM source", name: "wmSrc", widget: "string", required: false }
             - { label: "Poster source if Video", name: "pSrc", widget: "string", default: "no" }
             - { label: "Alt text", name: "alt", widget: "string", default: "visual asset, needs alt text" }
   - label: "Site info"
