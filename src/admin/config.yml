@@ -43,7 +43,7 @@ collections:
             default: ["1-col"]
             options: ["1-col", "2-col-even", "2-col-right", "2-col-left", "3-col"]
           - label: "Image row contents" 
-            name: "images3" 
+            name: "imageRowContents" 
             widget: "list"
             summary: '{{fields.alt}}'
             fields:
