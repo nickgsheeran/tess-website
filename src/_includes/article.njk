@@ -31,16 +31,16 @@ permalink: "/{{ title | slugify }}/"
 
   Images:
   <br>
-    {%- for theImages in images-%}
+    {# {%- for theImages in images-%}
       images check
       {%- for theImageRow in theImages.imgRow-%}
         imageRow check
         {%- for theExactImage in theImageRow.imageRowContents-%}
         {{ theExactImage.srcb }}
-          {# {% Image "./"+theImage.srcb, imageAlt  %} #}
+          {% Image "./"+theImage.srcb, imageAlt  %}
         {%- endfor -%}
       {%- endfor -%}
-    {%- endfor -%}
+    {%- endfor -%} #}
 
      {# {%- for theImage in images -%}
       {%- for eachImage in theImage.imgRow.imageRowContents -%}
@@ -48,6 +48,15 @@ permalink: "/{{ title | slugify }}/"
       <br>
       {%- endfor -%}
     {%- endfor -%} #}
+
+    {%- for theImage2 in images -%}
+    {{ theImage2.imgRow.mSize }}
+      <div class="{{theImage2.imgRow.mSize}} {{theImage2.imgRow.layout}}">
+        {%- for eachImage2 in theImage2.imgRow.imageRowContents -%}
+          {% Image "./"+eachImage2.srcb, imageAlt  %}
+        {%- endfor -%}
+      </div>
+    {%- endfor -%}
 
 </div>
 </article>
