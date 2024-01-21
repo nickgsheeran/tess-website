@@ -29,23 +29,25 @@ permalink: "/{{ title | slugify }}/"
 
   {{ content | safe }}
 
-    Images:
-    <br>
-    {%- for theImage in images-%}
-    the image's source: {{theImage.src}}
-    <br>
-    {%- endfor -%}
-
-    Images2:
-    <br>
-    {%- for theImage2 in images2 -%}
-      the image row margins: {{theImage2.imgRow.mSize}}
-      <br>
-      {%- for eachImage in theImage2.imgRow.images -%}
-      the image alt: {{eachImage.alt2}}
-      <br>
+  Images:
+  <br>
+    {%- for theImages in images-%}
+      images check
+      {%- for theImageRow in theImages.imgRow-%}
+        imageRow check
+        {%- for theExactImage in theImageRow.imageRowContents-%}
+        {{ theExactImage.srcb }}
+          {# {% Image "./"+theImage.srcb, imageAlt  %} #}
+        {%- endfor -%}
       {%- endfor -%}
     {%- endfor -%}
+
+     {# {%- for theImage in images -%}
+      {%- for eachImage in theImage.imgRow.imageRowContents -%}
+      {% Image "./"+eachImage.srcb, imageAlt  %}
+      <br>
+      {%- endfor -%}
+    {%- endfor -%} #}
 
 </div>
 </article>
