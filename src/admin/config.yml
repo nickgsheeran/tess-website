@@ -20,6 +20,8 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Disciplines", name: "disc", widget: "string" }
       - { label: "Collaborators", name: "collabs", widget: "string" }
+      - { label: "Snippet Image", name: "snipImg", widget: "image" }
+      - { label: "Snippet Image", name: "snipImgAlt", widget: "string" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
       - label: "Images" 

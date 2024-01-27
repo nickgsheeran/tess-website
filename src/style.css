@@ -182,7 +182,15 @@ p {
   font-size: 1.75rem;
 }
 
+a:hover {
+  color: var(--clr-primary-400);
+  text-decoration: underline;
+}
 
+a {
+  text-decoration: none;
+  color: black;
+}
 
 /* //////////////////////
   Utility Classes
