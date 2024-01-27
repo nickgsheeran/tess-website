@@ -16,6 +16,7 @@ tags:
 disc: Branding & Illustration
 collabs: "Art directed by: Jelle Marechal  Design in collaboration with:  Jelle
   Marechal, Gabriel Ribes"
+snipimg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
 image: /assets/portfolio/franklyn_wework_01_hero_image-1.jpg
 imageAlt: meave's sex palace on a list
 images:
