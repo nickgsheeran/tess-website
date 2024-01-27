@@ -15,7 +15,7 @@ layout: "base.njk"
     <ul role="list" class="articles__list flow">
       {%- for post in collections.post | reverse -%}
         <li>
-          {% Image "./src/"+post.data.image, post.data.imageAlt, "hero-image"%}
+          <a href="{{ post.url }}">{% Image "./src/"+post.data.image, post.data.imageAlt, "hero-image"%}</a>
           {% include 'article-snippet.njk' %}
         </li>
       {%- endfor -%}
