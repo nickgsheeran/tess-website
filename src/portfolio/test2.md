@@ -1,4 +1,6 @@
 ---
+snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+snipimg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
 title: WeWork
 description: Over the course of a decade, WeWork became the undisputed leader in
   coworking. Founded in New York City’s startup culture, they rapidly expanded
@@ -16,7 +18,7 @@ tags:
 disc: Branding & Illustration
 collabs: "Art directed by: Jelle Marechal  Design in collaboration with:  Jelle
   Marechal, Gabriel Ribes"
-snipimg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+snipImgAlt: wework and address typeset in white on black
 image: /assets/portfolio/franklyn_wework_01_hero_image-1.jpg
 imageAlt: meave's sex palace on a list
 images:
