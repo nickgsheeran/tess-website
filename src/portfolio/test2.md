@@ -22,7 +22,7 @@ image: /assets/portfolio/franklyn_wework_01_hero_image-1.jpg
 imageAlt: meave's sex palace on a list
 images:
   - imgRow:
-      mSize: small
+      mSize: large
       layout: 1-col
       imageRowContents:
         - videoB: false
@@ -30,7 +30,7 @@ images:
           alt: wework logotype
           srcb: src/assets/portfolio/franklyn_wework_03_logo_black_background-1.jpg
   - imgRow:
-      mSize: large
+      mSize: small
       layout: 1-col
       imageRowContents:
         - videoB: false
@@ -38,7 +38,7 @@ images:
           alt: bezier detail of wework typeface
           srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.34-2.jpg
   - imgRow:
-      mSize: small
+      mSize: large
       layout: 2-col-right
       imageRowContents:
         - videoB: false
@@ -50,7 +50,7 @@ images:
           alt: type specimen detail of wework serif italic and regular
           srcb: src/assets/portfolio/franklyn_wework_05_type_specimen-1.jpg
   - imgRow:
-      mSize: small
+      mSize: large
       layout: 1-col
       imageRowContents:
         - videoB: false
@@ -66,7 +66,7 @@ images:
           alt: a desk with an iMac displaying the wework website
           srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.34-3.jpg
   - imgRow:
-      mSize: small
+      mSize: large
       layout: 1-col
       imageRowContents:
         - videoB: false
@@ -74,7 +74,7 @@ images:
           alt: a photo of wework magazine
           srcb: src/assets/portfolio/franklyn_wework_22_magazine-1.jpg
   - imgRow:
-      mSize: large
+      mSize: small
       layout: 2-col-even
       imageRowContents:
         - videoB: false
@@ -94,7 +94,7 @@ images:
           alt: space staffed supported billboard
           srcb: src/assets/portfolio/franklyn_wework_19_ooh_04-1.jpg
   - imgRow:
-      mSize: large
+      mSize: small
       layout: 1-col
       imageRowContents:
         - videoB: false
@@ -102,7 +102,7 @@ images:
           alt: a spread from wework magazine
           srcb: src/assets/portfolio/franklyn_wework_11_magazine_spread_1-1.jpg
   - imgRow:
-      mSize: small
+      mSize: large
       layout: 3-col
       imageRowContents:
         - videoB: false
@@ -118,7 +118,7 @@ images:
           alt: collab
           srcb: src/assets/portfolio/artboard-3.jpg
   - imgRow:
-      mSize: small
+      mSize: large
       layout: 1-col
       imageRowContents:
         - videoB: false
@@ -126,7 +126,7 @@ images:
           alt: a space for work billboard
           srcb: src/assets/portfolio/franklyn_wework_08_ooh_01-1.jpg
   - imgRow:
-      mSize: small
+      mSize: large
       layout: 1-col
       imageRowContents:
         - videoB: false
