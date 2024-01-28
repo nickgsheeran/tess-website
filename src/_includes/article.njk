@@ -4,10 +4,10 @@ permalink: "/{{ title | slugify }}/"
 ---
 
 <article class="main-article">
-<div class="container flow">
+<div class="container flow pGrid">
   
   <figure class="main-article__figure">
-    {% Image "./src/"+image, imageAlt  %}
+    {% Image "./src/"+image, imageAlt %}
   </figure>
 
   <section class="article-intro">
@@ -28,7 +28,7 @@ permalink: "/{{ title | slugify }}/"
   </section>
 
   {{ content | safe }}
-  <br>
+  <section class="article-images pGrid">
     {%- for theImage2 in images -%}
       <div class="{{theImage2.imgRow.mSize}} {{theImage2.imgRow.layout}}">
         {%- for eachImage2 in theImage2.imgRow.imageRowContents -%}
@@ -36,5 +36,6 @@ permalink: "/{{ title | slugify }}/"
         {%- endfor -%}
       </div>
     {%- endfor -%}
+  </section>
 </div>
 </article>

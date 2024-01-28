@@ -106,6 +106,9 @@ body {
   background-color: rgba(254, 255, 204, 1);
 }
 
+main {
+  padding-top: 2.4em;
+}
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
@@ -161,7 +164,7 @@ h1,
 h2,
 h3 {
   font-family: var(--ff-heading);
-  font-weight: var(--fw-900);
+  font-weight: var(--fw-400);
   line-height: 1.1;
 }
 
@@ -173,10 +176,10 @@ strong {
   font-weight: var(--fw-700);
 }
 
-section,
+/* section,
 .section {
   padding: min(10vh, 10em) 0;
-}
+} */
 
 p {
   font-size: 1.75rem;
@@ -206,7 +209,7 @@ a {
 
 .container {
   margin-inline: auto;
-  padding-inline: 1.5em;
+  /* padding-inline: 1.5em; */
 }
 
 .container--narrow {
@@ -227,7 +230,7 @@ a {
 
 .article-title,
 .section-title {
-  color: var(--clr-primary-500);
+  /* color: var(--clr-primary-500); */
 }
 
 .article-title {
@@ -278,6 +281,11 @@ a {
   border-bottom: 1px solid black;
   text-align: center;
   font-size: 2rem;
+  height: 1.7em;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
 }
 
 /* //////////////////////
@@ -321,14 +329,13 @@ a {
   width: 100%;
 }
 
-.hero-image > picture, img {
+.hero-image > picture > img {
   display: block;
   width: 100%;
   height: auto;
   max-height: max(36rem, 60vh);
   object-fit: cover;
 }
-
 
 @media (min-width: 45em) {
   .hero > div {
@@ -375,7 +382,6 @@ a {
   margin: auto;
 }
 
-
 /* //////////////////////
   Individual article page
   /////////////////////// */
@@ -384,30 +390,77 @@ a {
     margin-bottom: 3rem;
   }
 
-  .main-article__figure figcaption {
-    margin: 1rem 0;
-    font-size: var(--fs-300);
-    opacity: .9;
-  }
+.main-article__figure {
+    grid-column-start: 1;
+    grid-column-end: 13;
+}
 
-  .main-article > .container {
-    margin-top: 3.9rem;
-    display: flex;
-    flex-wrap: wrap;
-  }
+.main-article__figure figcaption {
+  margin: 1rem 0;
+  font-size: var(--fs-300);
+  opacity: .9;
+}
 
-  .article-intro {
-    width: 100%;
-    padding: 0 16.665% 0 16.665%;
-  }
+.main-article > .container {
+  margin-top: 3.9rem;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
 
-  .intro-details > * {
-    display: inline-block;
-  }
+.article-intro {
+  width: 100%;
+  margin: 8rem 0 8rem 0;
+  grid-column-start: 3;
+  grid-column-end: 10;
+}
 
-  #disc {
-    width: 40%;
-  }
+.article-intro > p {
+  margin: 3rem 0 3rem 0;
+}
+
+.article-images {
+  grid-column-start: 1;
+  grid-column-end: 13;
+  margin: 2rem;
+}
+
+.article-images > div {
+  margin-bottom: 8rem;
+}
+
+.article-images > .small {
+  grid-column-start: 3;
+  grid-column-end: 10;
+}
+
+.article-images > .large {
+  grid-column-start: 1;
+  grid-column-end: 13;
+}
+
+.intro-details {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.intro-details > * {
+  display: inline-block;
+}
+
+#disc {
+  width: 40%;
+  flex-grow: 1;
+}
+
+.intro-details > p {
+  flex-shrink: 20;
+}
+
+.pGrid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 2rem;
+}
 
 /* //////////////////////
   Article snippets

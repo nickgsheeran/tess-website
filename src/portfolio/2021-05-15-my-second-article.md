@@ -9,6 +9,8 @@ tags:
   - post
   - featured
 disc: Branding and Illustration
+snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+snipImgAlt: wework and address typeset in white on black
 image: /assets/portfolio/article-2.jpg
 imageAlt: This is a test
 ---

@@ -21,13 +21,13 @@ collections:
       - { label: "Disciplines", name: "disc", widget: "string" }
       - { label: "Collaborators", name: "collabs", widget: "string" }
       - { label: "Snippet Image", name: "snipImg", widget: "image" }
-      - { label: "Snippet Image", name: "snipImgAlt", widget: "string" }
+      - { label: "Snippet Image Alt Text", name: "snipImgAlt", widget: "string" }
       - { label: "Featured Image", name: "image", widget: "image" }
       - { label: "Image Caption", name: "imageAlt", widget: "string" }
-      - label: "Images" 
+      - label: "Image Rows" 
         name: "images" 
         widget: "list"
-        summary: 'Images'
+        summary: 'Image Row'
         fields:
         - label: "Image Row" 
           name: "imgRow" 
@@ -44,7 +44,7 @@ collections:
             widget: "select"
             default: ["1-col"]
             options: ["1-col", "2-col-even", "2-col-right", "2-col-left", "3-col"]
-          - label: "Image row contents" 
+          - label: "Image" 
             name: "imageRowContents" 
             widget: "list"
             summary: '{{fields.alt}}'

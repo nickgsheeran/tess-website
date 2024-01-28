@@ -3,6 +3,8 @@ title: My Third Article
 date: 2021-05-28
 tags: ['post', 'featured']
 disc: Branding and Illustration
+snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+snipImgAlt: wework and address typeset in white on black
 image: /assets/portfolio/article-3.jpg
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?

@@ -2,6 +2,8 @@
 title: My Fourth Article
 date: 2021-06-01
 disc: Branding and Illustration
+snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+snipImgAlt: wework and address typeset in white on black
 image: /assets/portfolio/article-4.jpg
 imageAlt: This is a test
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
