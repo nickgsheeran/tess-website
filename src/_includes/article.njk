@@ -3,14 +3,14 @@ layout: 'base.njk'
 permalink: "/{{ title | slugify }}/"
 ---
 
-<article class="main-article">
-<div class="container flow pGrid">
-  
-  <figure class="main-article__figure">
-    {% Image "./src/"+image, imageAlt %}
-  </figure>
+<figure class="main-article__figure">
+  {% Image "./src/"+image, imageAlt %}
+</figure>
 
-  <section class="article-intro">
+<article class="container">
+
+<section class="pGrid">
+  <div class="article-intro">
     <h1 class="article-title">
       {{ title }}
     </h1>
@@ -25,10 +25,11 @@ permalink: "/{{ title | slugify }}/"
         {{ collabs }}
       </p>
     </div>
-  </section>
+  </div>
+</section>
 
   {{ content | safe }}
-  <section class="article-images pGrid">
+  <section class="pGrid article-images">
     {%- for theImage2 in images -%}
       <div class="{{theImage2.imgRow.mSize}} {{theImage2.imgRow.layout}}">
         {%- for eachImage2 in theImage2.imgRow.imageRowContents -%}
@@ -37,5 +38,5 @@ permalink: "/{{ title | slugify }}/"
       </div>
     {%- endfor -%}
   </section>
-</div>
+
 </article>

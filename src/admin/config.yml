@@ -42,8 +42,8 @@ collections:
           - label: "Layout"
             name: "layout"
             widget: "select"
-            default: ["1-col"]
-            options: ["1-col", "2-col-even", "2-col-right", "2-col-left", "3-col"]
+            default: ["one-col"]
+            options: ["one-col", "two-col-even", "two-col-right", "two-col-left", "three-col"]
           - label: "Image" 
             name: "imageRowContents" 
             widget: "list"

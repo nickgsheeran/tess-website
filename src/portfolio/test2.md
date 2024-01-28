@@ -23,7 +23,7 @@ imageAlt: meave's sex palace on a list
 images:
   - imgRow:
       mSize: large
-      layout: 1-col
+      layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
@@ -31,7 +31,7 @@ images:
           srcb: src/assets/portfolio/franklyn_wework_03_logo_black_background-1.jpg
   - imgRow:
       mSize: small
-      layout: 1-col
+      layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
@@ -39,7 +39,7 @@ images:
           srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.34-2.jpg
   - imgRow:
       mSize: large
-      layout: 2-col-right
+      layout: two-col-right
       imageRowContents:
         - videoB: false
           pSrc: no
@@ -51,7 +51,7 @@ images:
           srcb: src/assets/portfolio/franklyn_wework_05_type_specimen-1.jpg
   - imgRow:
       mSize: large
-      layout: 1-col
+      layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
@@ -59,7 +59,7 @@ images:
           srcb: src/assets/portfolio/franklyn_wework_05_type_specimen-1.jpg
   - imgRow:
       mSize: small
-      layout: 1-col
+      layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
@@ -67,7 +67,7 @@ images:
           srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.34-3.jpg
   - imgRow:
       mSize: large
-      layout: 1-col
+      layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
@@ -75,7 +75,7 @@ images:
           srcb: src/assets/portfolio/franklyn_wework_22_magazine-1.jpg
   - imgRow:
       mSize: small
-      layout: 2-col-even
+      layout: two-col-even
       imageRowContents:
         - videoB: false
           pSrc: no
@@ -87,7 +87,7 @@ images:
           srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.56-1.jpg
   - imgRow:
       mSize: large
-      layout: 1-col
+      layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
@@ -95,7 +95,7 @@ images:
           srcb: src/assets/portfolio/franklyn_wework_19_ooh_04-1.jpg
   - imgRow:
       mSize: small
-      layout: 1-col
+      layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
@@ -103,7 +103,7 @@ images:
           srcb: src/assets/portfolio/franklyn_wework_11_magazine_spread_1-1.jpg
   - imgRow:
       mSize: large
-      layout: 3-col
+      layout: three-col
       imageRowContents:
         - videoB: false
           pSrc: no
@@ -119,7 +119,7 @@ images:
           srcb: src/assets/portfolio/artboard-3.jpg
   - imgRow:
       mSize: large
-      layout: 1-col
+      layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
@@ -127,7 +127,7 @@ images:
           srcb: src/assets/portfolio/franklyn_wework_08_ooh_01-1.jpg
   - imgRow:
       mSize: large
-      layout: 1-col
+      layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
