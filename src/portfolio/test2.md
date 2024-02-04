@@ -18,7 +18,9 @@ collabs: "Art directed by: Jelle Marechal  Design in collaboration with: Jelle
   Marechal, Gabriel Ribes"
 snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
 snipImgAlt: wework and address typeset in white on black
-image: /assets/portfolio/franklyn_wework_01_hero_image-1.jpg
+fVideoB: true
+fSrcb: src/assets/portfolio/weworkvid.mp4
+fAlt: wework reel
 imageAlt: meave's sex palace on a list
 images:
   - imgRow:
@@ -133,4 +135,5 @@ images:
           pSrc: no
           alt: for all the ways you work wall
           srcb: src/assets/portfolio/franklyn_wework_28_ooh_05-1.jpg
+image: /assets/portfolio/franklyn_wework_01_hero_image-1.jpg
 ---
