@@ -20,10 +20,13 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Disciplines", name: "disc", widget: "string" }
       - { label: "Collaborators", name: "collabs", widget: "string" }
-      - { label: "Snippet Image", name: "snipImg", widget: "image" }
-      - { label: "Snippet Image Alt Text", name: "snipImgAlt", widget: "string" }
-      - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Image Caption", name: "imageAlt", widget: "string" }
+      - { label: "Snippet image and featured image poster", name: "snipImg", widget: "image" }
+      - { label: "Snippet image alt text", name: "snipImgAlt", widget: "string" }
+      - { label: "Featured image", name: "image", widget: "image" }
+      - { label: "Video?", name: "fVideoB", widget: "boolean", default: false }
+      - { label: "Featured Image source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 formats for video.", name: "fSrcb", widget: "string" }
+      - { label: "Video WebM source", name: "fWmSrc", widget: "string", required: false }
+      - { label: "Featured image alt text", name: "fAlt", widget: "string", default: "visual asset, needs alt text" }
       - label: "Image Rows" 
         name: "images" 
         widget: "list"

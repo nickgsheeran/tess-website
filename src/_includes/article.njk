@@ -33,7 +33,14 @@ permalink: "/{{ title | slugify }}/"
     {%- for theImage2 in images -%}
       <div class="{{theImage2.imgRow.mSize}} {{theImage2.imgRow.layout}}">
         {%- for eachImage2 in theImage2.imgRow.imageRowContents -%}
-          {% Image "./"+eachImage2.srcb, imageAlt  %}
+          {% if eachImage2.videoB %}
+            <video playsinline="" loop="loop" autoplay="autoplay" muted="muted" poster="./{{eachImage2.pSrc}}">
+              <source src="./{{eachImage2.wmSrc}}" type="video/webm">
+              <source src="./{{eachImage2.srcb}}" type="video/mp4">
+            </video>
+            {% else %}
+            {% Image "./"+eachImage2.srcb, imageAlt  %}
+          {% endif %}
         {%- endfor -%}
       </div>
     {%- endfor -%}
