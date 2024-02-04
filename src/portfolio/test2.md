@@ -28,7 +28,7 @@ images:
       layout: one-col
       imageRowContents:
         - videoB: true
-          pSrc: asdf
+          pSrc: src/assets/portfolio/bridge-poster.jpg
           alt: wework logotype
           srcb: src/assets/portfolio/bridge.mp4
   - imgRow:
