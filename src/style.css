@@ -333,6 +333,13 @@ a {
   gap: 3em;
 }
 
+.hero-video {
+  max-width: var(--hro-mwidth);
+  margin: auto;
+  display: block;
+}
+}
+
 .hero-image {
   width: 100%;
 }

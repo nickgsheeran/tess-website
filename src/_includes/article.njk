@@ -10,8 +10,7 @@ permalink: "/{{ title | slugify }}/"
       {{WmSrc | replace("src", "")}}
       <source src="{{WmSrc}}" type="video/webm">
     {% endif %}
-    {{fSrcb | replace("src", "")}}
-    <source src="{{fSrcb}}" type="video/mp4">
+    <source src="{{fSrcb | replace("src", "")}}" type="video/mp4">
   </video>
   {% else %}
   {% Image "./src/"+snipImg, snipImgAlt %}
