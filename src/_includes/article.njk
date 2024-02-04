@@ -4,7 +4,16 @@ permalink: "/{{ title | slugify }}/"
 ---
 
 <figure class="main-article__figure">
-  {% Image "./src/"+image, imageAlt %}
+{% if fVideoB %}
+  <video playsinline="" loop="loop" autoplay="autoplay" muted="muted" poster="{{snipImg}}">
+    {% if fWmSrc %}
+      <source src="{{WmSrc}}" type="video/webm">
+    {% endif %}
+  <source src="{{fSrcb}}" type="video/mp4">
+  </video>
+  {% else %}
+  {% Image "./src/"+snipImg, snipImgAlt %}
+  {% endif %}
 </figure>
 
 <article class="container">
