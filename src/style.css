@@ -127,6 +127,10 @@ picture {
   
 }
 
+video {
+  width: 100%;
+}
+
 /* Inherit fonts for inputs and buttons */
 input,
 textarea,
