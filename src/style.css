@@ -14,6 +14,13 @@
   font-style: normal;
 }
 
+::selection {
+  background: pink;
+}
+::-moz-selection {
+  background: pink;
+}
+
 :root {
   --fs-300: 0.9375rem;
   --fs-400: 1.0625rem;
@@ -393,7 +400,7 @@ a {
   width: 100%;
 }
 
-.articles__list > li:nth-child(4n) > .hero-image > picture {
+.articles__list > li:nth-child(4n) > * {
   max-width: var(--hro-mwidth);
   margin: auto;
 }
@@ -485,9 +492,10 @@ a {
 }
 
 #nextBtn {
-  margin: auto;
   font-family: 'america';
-  margin-bottom: 8rem;
+  text-align: center;
+  margin: 0 auto 8rem;
+  display: block;
   grid-column-start: 6;
   grid-column-end: 8;
   font-size: 2rem;
@@ -610,6 +618,27 @@ a {
     text-align: center;
 }
 
+/* //////////////////////
+  Draw mode
+  /////////////////////// */
+
+#sketchHolder {
+  display: none;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+}
+
+#drawCheck {
+  border: 2px solid black;
+  border-radius: 0.2rem;
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  margin-bottom: -0.1rem;
+}
 
 /* //////////////////////
   Mobile 
@@ -705,6 +734,10 @@ a {
   
   .two-col-even, .two-col-right, .two-col-left, .three-col {
     gap: .5rem;
+  }
+
+  #nextBtn {
+    font-size: 1.25rem;
   }
 
 }
