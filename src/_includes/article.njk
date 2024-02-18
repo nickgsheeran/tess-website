@@ -56,6 +56,21 @@ permalink: "/{{ title | slugify }}/"
         {%- endfor -%}
       </div>
     {%- endfor -%}
+    {% set thetitles = [] %}
+    {% for post in collections.post | reverse %}
+      {% set thetitles = thetitles.concat(post.data.title) %}
+    {% endfor %}
+    {% set i = 0 %}
+    {% set j = 0 %}
+    {% for post in thetitles %}
+      {% set i = i + 1 %}
+      {% if title == post %}
+      {% set j = i %}
+      {% endif %}
+    {% endfor %}
+    {%set sorted = collections.post | reverse%}
+    <a href="{{sorted[j].url}}" id="nextBtn">Next Article</a>
   </section>
+
 
 </article>

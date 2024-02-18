@@ -15,19 +15,21 @@ layout: "base.njk"
     <ul role="list" class="articles__list flow">
       {%- for post in collections.post | reverse -%}
         <li>
-          <a href="{{ post.url }}">
           {% if post.data.fVideoB %}
-            <video playsinline loop="loop" autoplay="autoplay" muted poster="{{post.data.snipImg}}" class="hero-video">
-              {% if fWmSrc %}
-                <source src="{{post.data.WmSrc | replace("src", "")}}" type="video/webm">
-              {% endif %}
-              {{post.data.fSrcb | replace("src", "")}}
-              <source src="{{post.data.fSrcb | replace("src", "")}}" type="video/mp4">
-            </video>
+            <a href="{{ post.url }}" class="hero-parent">
+              <video playsinline loop="loop" autoplay="autoplay" muted poster="{{post.data.snipImg}}">
+                {% if fWmSrc %}
+                  <source src="{{post.data.WmSrc | replace("src", "")}}" type="video/webm">
+                {% endif %}
+                {{post.data.fSrcb | replace("src", "")}}
+                <source src="{{post.data.fSrcb | replace("src", "")}}" type="video/mp4">
+              </video>
+            </a>
             {% else %}
-            {% Image "./src/"+post.data.snipImg, post.data.snipImgAlt, "hero-image" %}
+            <a href="{{ post.url }}">
+              {% Image "./src/"+post.data.snipImg, post.data.snipImgAlt, "hero-image" %}
+            </a>
             {% endif %}
-          </a>
           {% include 'article-snippet.njk' %}
         </li>
       {%- endfor -%}
