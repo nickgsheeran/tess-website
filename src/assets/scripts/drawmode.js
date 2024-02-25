@@ -25,7 +25,7 @@ function setup() {
     cnv = createCanvas(windowWidth, windowHeight);
     cnv.parent('sketchHolder');
     // noLoop();
-    stroke("pink");
+    stroke("black");
     strokeWeight(50);
     noFill();
   }
