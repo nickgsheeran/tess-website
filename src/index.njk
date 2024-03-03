@@ -16,7 +16,7 @@ layout: "base.njk"
       {%- for post in collections.post | reverse -%}
         <li>
           {% if post.data.fVideoB %}
-            <a href="{{ post.url }}" class="hero-parent">
+            <a href="{{ post.url }}" class="hero-parent" aria-label="View project:{{ post.data.title }}">
               <video playsinline loop="loop" autoplay="autoplay" muted poster="{{post.data.snipImg}}">
                 {% if fWmSrc %}
                   <source src="{{post.data.WmSrc | replace("src", "")}}" type="video/webm">
@@ -26,7 +26,7 @@ layout: "base.njk"
               </video>
             </a>
             {% else %}
-            <a href="{{ post.url }}">
+            <a href="{{ post.url }}" aria-label="View project:{{ post.data.title }}">
               {% Image "./src/"+post.data.snipImg, post.data.snipImgAlt, "" %}
             </a>
             {% endif %}

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ title }}</title>
     <link rel="stylesheet" href="/style.css">
+
     <!-- take out defer if troubleshooting auth problems -->
     <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 
@@ -64,6 +65,7 @@
 
 </head>
 <body>
+<div id="blocker"></div>
     {% include 'header.njk' %}
     <!-- <h1>{{title}}</h1> -->
     <main>
@@ -87,6 +89,6 @@
         }
       </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.min.js" integrity="sha512-uaz5GpnQoE6t5echKlX8P52czvsIGgLPcvlzfvRubLZ1Hp8JemUDnbUiAahbVtPb+jUVrNETuXvAhDDF/N3M4w==" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
-    <script src="../assets/scripts/drawmode.js"></script>
+    <script async src="../assets/scripts/drawmode.js"></script>
 </body>
 </html>
