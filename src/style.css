@@ -169,7 +169,6 @@ body {
 }
 
 h1,
-h2,
 h3 {
   font-family: var(--ff-heading);
   font-weight: var(--fw-400);
@@ -177,6 +176,8 @@ h3 {
 }
 
 h2 {
+  font-family: var(--ff-heading);
+  font-weight: var(--fw-400);
   font-size: 1.5rem;
 }
 
@@ -190,7 +191,7 @@ strong {
 } */
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 a:hover {
@@ -738,12 +739,6 @@ a {
   }
 
 }
-
-html {
-  visibility: visible;
-  opacity: 1;
-}
-
 
 /* //////////////////////
   Desktop 
