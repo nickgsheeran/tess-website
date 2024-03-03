@@ -27,7 +27,7 @@ layout: "base.njk"
             </a>
             {% else %}
             <a href="{{ post.url }}">
-              {% Image "./src/"+post.data.snipImg, post.data.snipImgAlt, "hero-image" %}
+              {% Image "./src/"+post.data.snipImg, post.data.snipImgAlt, "" %}
             </a>
             {% endif %}
           {% include 'article-snippet.njk' %}

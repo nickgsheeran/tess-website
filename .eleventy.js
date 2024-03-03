@@ -61,7 +61,7 @@ module.exports = function(eleventyCongfig) {
 
     const clss = `${cls}`;
 
-      return `<div class="img-wrapper ${clss}"><picture> ${source} ${img} </picture></div>`;
+      return `<div class="${clss}"><picture> ${source} ${img} </picture></div>`;
     });
 
       // Return your Object options:

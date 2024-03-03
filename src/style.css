@@ -4,6 +4,7 @@
         url('./assets/type/gt-america-regular.woff'), format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -12,6 +13,7 @@
         url('./assets/type/ClearfaceStd-Regular.woff'), format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 ::selection {
@@ -124,14 +126,9 @@ a:not([class]) {
 /* Make images easier to work with */
 img,
 picture {
-  /* max-width: 100%;
-  display: block; */
-
   display: block;
   width: 100%;
-  max-width: 100%;
   height: auto;
-  
 }
 
 video {
@@ -209,17 +206,8 @@ a {
   Utility Classes
   /////////////////////// */
 
-/* select all direct childen of .flow
-   and add margin to the top for proper
-   spacing */
-
-/* .flow > *:where(:not(:first-child)) {
-  margin-top: var(--flow-spacer, 1em);
-} */
-
 .container {
   margin-inline: auto;
-  /* padding-inline: 1.5em; */
 }
 
 .container--narrow {
@@ -237,11 +225,6 @@ a {
 }
 
 /* typgraphy */
-
-.article-title,
-.section-title {
-  /* color: var(--clr-primary-500); */
-}
 
 .article-title {
   font-size: 2.5rem;
@@ -347,9 +330,14 @@ a {
   display: block;
 }
 
-
-.hero-image {
-  width: 100%;
+.lazy {
+  min-height: 32vw;
+}
+.two-col-left > div > picture > .lazy, .two-col-right > div > picture > .lazy, .three-col > div > picture > .lazy {
+  min-height: 16vw;
+}
+.loaded {
+  min-height: unset;
 }
 
 .hero-image > picture > img {
@@ -371,7 +359,6 @@ a {
 }
 
 .articles__list {
-  --flow-spacer: 3rem;
   margin: 6rem 0;
   display: flex;
   flex-wrap: wrap;
@@ -414,7 +401,7 @@ a {
   }
 
 .main-article__figure {
-  margin-top: 3.9rem;
+  margin-top: 2.75rem;
 }
 
 .main-article__figure figcaption {
@@ -774,6 +761,9 @@ html {
   }
   .nav-list a {
     font-size: 1.75rem;
+  }
+  .main-article__figure {
+    margin-top: 3.25rem;
   }
       
   .article-title {
