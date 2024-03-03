@@ -1,6 +1,7 @@
 const {DateTime } = require("luxon");
 const Image = require("@11ty/eleventy-img");
 const sharp = require('sharp');
+const htmlmin = require("html-minifier");
 
 module.exports = function(eleventyCongfig) {
 
@@ -71,4 +72,17 @@ module.exports = function(eleventyCongfig) {
       output: "public"
     }
   }
+
+  eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
+    if (outputPath.endsWith(".html")) {
+      return htmlmin.minify(content, {
+        collapseWhitespace: true,
+        removeComments: true,  
+        useShortDoctype: true,
+      });
+    }
+
+    return content;
+  });
+
 }
