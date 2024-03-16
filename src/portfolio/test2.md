@@ -9,7 +9,7 @@ description: Over the course of a decade, WeWork became the undisputed leader in
   navigate the new office landscape shaped by the pandemic. With a company full
   of folks still striving to make the workplace a better place, Franklyn helped
   WeWork reimagine their brand strategy and visual identity to cement their
-  position as industry leaders.h﻿ello this is a test
+  position as industry leaders.
 date: 2024-01-21T16:52:33.481Z
 tags:
   - post
