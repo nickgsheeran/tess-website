@@ -22,7 +22,7 @@ collections:
       - { label: "Collaborators", name: "collabs", widget: "string" }
       - label: "Snippet Image" 
         name: "snipImgSet" 
-        widget: "list"
+        widget: "object"
         summary: 'snippet image settings'
         fields:
         - { label: "Image / Video Poster", name: "snipImg", widget: "image" }
@@ -32,7 +32,7 @@ collections:
         - { label: "Alt text (short description of the asset)", name: "snipAlt", widget: "string", default: "visual asset, needs alt text" }
       - label: "Featured Image" 
         name: "ftImgSet" 
-        widget: "list"
+        widget: "object"
         summary: 'featured image settings'
         fields:
         - { label: "Image / Video Poster", name: "ftImg", widget: "image" }
