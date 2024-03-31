@@ -30,7 +30,7 @@ layout: "base.njk"
               {% Image "./src/"+post.data.snipImgSet.snipImg, post.data.snipImgSet.snipAlt %}
             </a>
           {% endif %} #}
-          <p>{{ post.data.snipImgSet[0] }}</p>
+          {# <p>{{ post.data.snipImgSet[0] }}</p> #}
           {% include 'article-snippet.njk' %}
         </li>
       {%- endfor -%}

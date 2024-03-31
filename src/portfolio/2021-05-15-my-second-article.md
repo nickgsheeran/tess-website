@@ -11,13 +11,11 @@ tags:
 disc: Branding and Illustration
 snipImgSet:
   - snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
-  - snipVidB: true
-  - snipVidSource: src/assets/portfolio/weworkvid.mp4
+  - snipVidB: false
   - snipAlt: wework reel
 ftImgSet:
   - ftImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
-  - ftVidB: true
-  - ftVidSource: src/assets/portfolio/weworkvid.mp4
+  - ftVidB: false
   - ftAlt: wework reel
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Massa placerat duis ultricies lacus sed turpis tincidunt id. Sit amet nulla facilisi morbi tempus iaculis urna id volutpat. Erat nam at lectus urna duis convallis convallis. Purus faucibus ornare suspendisse sed nisi. Mauris rhoncus aenean vel elit. Dignissim convallis aenean et tortor at risus viverra adipiscing at. Tellus rutrum tellus pellentesque eu tincidunt tortor. Laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Eu mi bibendum neque egestas congue quisque.

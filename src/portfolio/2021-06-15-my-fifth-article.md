@@ -6,13 +6,11 @@ tags: ["post", "featured"]
 disc: Branding and Illustration
 snipImgSet:
   - snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
-  - snipVidB: true
-  - snipVidSource: src/assets/portfolio/weworkvid.mp4
+  - snipVidB: false
   - snipAlt: wework reel
 ftImgSet:
   - ftImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
-  - ftVidB: true
-  - ftVidSource: src/assets/portfolio/weworkvid.mp4
+  - ftVidB: false
   - ftAlt: wework reel
 ---
 

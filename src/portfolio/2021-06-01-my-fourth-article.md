@@ -5,13 +5,11 @@ disc: Branding and Illustration
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 snipImgSet:
   - snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
-  - snipVidB: true
-  - snipVidSource: src/assets/portfolio/weworkvid.mp4
+  - snipVidB: false
   - snipAlt: wework reel
 ftImgSet:
   - ftImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
-  - ftVidB: true
-  - ftVidSource: src/assets/portfolio/weworkvid.mp4
+  - ftVidB: false
   - ftAlt: wework reel
 ---
 
