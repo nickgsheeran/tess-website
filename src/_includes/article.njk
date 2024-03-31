@@ -3,19 +3,19 @@ layout: 'base.njk'
 permalink: "/{{ title | slugify }}/"
 ---
 
-{# <figure class="main-article__figure">
-{% if fVideoB %}
-  <video playsinline loop="loop" autoplay="autoplay" muted poster="{{ftImg}}">
-    {% if ftWebmSource %}
-      {{ftWebmSource | replace("src", "")}}
-      <source src="{{ftWebmSource}}" type="video/webm">
+<figure class="main-article__figure">
+{% if ftImgSet.ftVidB %}
+  <video playsinline loop="loop" autoplay="autoplay" muted poster="{{ftImgSet.ftImg}}">
+    {% if ftImgSet.ftWebmSource %}
+      {{ftImgSet.ftWebmSource | replace("src", "")}}
+      <source src="{{ftImgSet.ftWebmSource}}" type="video/webm">
     {% endif %}
-    <source src="{{ftVidSource | replace("src", "")}}" type="video/mp4">
+    <source src="{{ftImgSet.ftVidSource | replace("src", "")}}" type="video/mp4">
   </video>
   {% else %}
-  {% Image "./src/"+ftImag, ftAlt %}
-  {% endif %}
-</figure> #}
+  {% Image "./src/"+ftImgSet.ftImg, ftImgSet.ftAlt %}
+{% endif %}
+</figure>
 
 <article class="container">
 
@@ -38,7 +38,7 @@ permalink: "/{{ title | slugify }}/"
   </div>
 </section>
 
-  {# {{ content | safe }}
+  {{ content | safe }}
   <section class="pGrid article-images">
     {%- for theImage2 in images -%}
       <div class="{{theImage2.imgRow.mSize}} {{theImage2.imgRow.layout}}">
@@ -51,7 +51,7 @@ permalink: "/{{ title | slugify }}/"
               <source src="{{eachImage2.srcb | replace("src", "")}}" type="video/mp4">
             </video>
             {% else %}
-            {% Image "./"+eachImage2.srcb, imageAlt  %}
+            {% Image "./"+eachImage2.srcb, eachImage2.alt  %}
           {% endif %}
         {%- endfor -%}
       </div>
@@ -70,7 +70,7 @@ permalink: "/{{ title | slugify }}/"
     {% endfor %}
     {%set sorted = collections.post | reverse%}
     <a href="{{sorted[j].url}}" id="nextBtn">Next Project</a> 
-  </section> #}
+  </section>
 
 
 </article>

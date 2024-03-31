@@ -2,20 +2,20 @@
 title: example
 layout: "base.njk"
 ---
-{# <section id="info-desc">
+<section id="info-desc">
   <h2>
     {%- for infosrc in collections.infosrc -%}
         {{ infosrc.data.headdesc }}
     {%- endfor -%}
   </h2>
-</section> #}
+</section>
 
 <section class="articles">
   <div class="container flow">
     <ul role="list" class="articles__list flow">
       {%- for post in collections.post | reverse -%}
         <li>
-          {# {% if post.data.snipImgSet.snipVidB %}
+          {% if post.data.snipImgSet.snipVidB %}
             <a href="{{ post.url }}" class="hero-parent" aria-label="View project:{{ post.data.title }}">
               <video playsinline loop="loop" autoplay="autoplay" muted poster="{{post.data.snipImgSet.snipImg}}">
                 {% if post.data.snipImgSet.snipWebmSource %}
@@ -29,8 +29,7 @@ layout: "base.njk"
             <a href="{{ post.url }}" aria-label="View project:{{ post.data.title }}">
               {% Image "./src/"+post.data.snipImgSet.snipImg, post.data.snipImgSet.snipAlt %}
             </a>
-          {% endif %} #}
-          {# <p>{{ post.data.snipImgSet[0] }}</p> #}
+          {% endif %}
           {% include 'article-snippet.njk' %}
         </li>
       {%- endfor -%}
