@@ -377,18 +377,13 @@ a {
   width: 100%;
 }
 
-.articles__list > li:first-child > .hero-image > picture {
+.articles__list > li:first-child > *, .articles__list > li:nth-child(4n) > * {
   max-width: var(--hro-mwidth);
   margin: auto;
 }
 
 .articles__list > li:nth-child(4n) {
   width: 100%;
-}
-
-.articles__list > li:nth-child(4n) > * {
-  max-width: var(--hro-mwidth);
-  margin: auto;
 }
 
 /* //////////////////////

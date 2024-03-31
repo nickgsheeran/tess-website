@@ -1,13 +1,19 @@
 ---
 title: My Fifth Article
+description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 date: 2021-06-15
 tags: ["post", "featured"]
 disc: Branding and Illustration
-snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
-snipImgAlt: wework and address typeset in white on black
-image: /assets/portfolio/article-5.jpg
-imageAlt: This is a test
-description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
+snipImgSet:
+  - snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+  - snipVidB: true
+  - snipVidSource: src/assets/portfolio/weworkvid.mp4
+  - snipAlt: wework reel
+ftImgSet:
+  - ftImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+  - ftVidB: true
+  - ftVidSource: src/assets/portfolio/weworkvid.mp4
+  - ftAlt: wework reel
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa. Amet tellus cras adipiscing enim eu turpis egestas pretium aenean. Ornare aenean euismod elementum nisi quis eleifend. Amet tellus cras adipiscing enim eu turpis. Nisi vitae suscipit tellus mauris. Mauris in aliquam sem fringilla ut morbi tincidunt augue. Mi eget mauris pharetra et. Et tortor at risus viverra. Id eu nisl nunc mi ipsum faucibus vitae. Malesuada nunc vel risus commodo viverra maecenas. Et netus et malesuada fames ac turpis egestas sed. Massa vitae tortor condimentum lacinia quis. Eu augue ut lectus arcu bibendum at varius. Enim nec dui nunc mattis enim ut tellus elementum sagittis. In fermentum et sollicitudin ac orci. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Et ligula ullamcorper malesuada proin libero nunc consequat interdum varius. Id porta nibh venenatis cras sed felis eget velit. In hac habitasse platea dictumst.

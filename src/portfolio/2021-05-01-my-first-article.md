@@ -9,10 +9,16 @@ tags:
   - post
   - featured
 disc: Branding and Illustration
-snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
-snipImgAlt: wework and address typeset in white on black
-image: /assets/portfolio/article-1.jpg
-imageAlt: This is a test
+snipImgSet:
+  - snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+  - snipVidB: true
+  - snipVidSource: src/assets/portfolio/weworkvid.mp4
+  - snipAlt: wework reel
+ftImgSet:
+  - ftImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+  - ftVidB: true
+  - ftVidSource: src/assets/portfolio/weworkvid.mp4
+  - ftAlt: wework reel
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Risus commodo viverra maecenas accumsan lacus vel. Donec ultrices tincidunt arcu non sodales. Mattis rhoncus urna neque viverra justo nec ultrices dui sapien. Pretium quam vulputate dignissim suspendisse in est. Lobortis mattis aliquam faucibus purus in massa tempor nec. Elit ullamcorper dignissim cras tincidunt lobortis feugiat vivamus at augue. Quis ipsum suspendisse ultrices gravida dictum fusce ut placerat. Vulputate eu scelerisque felis imperdiet proin. Nisl nisi scelerisque eu ultrices.
 

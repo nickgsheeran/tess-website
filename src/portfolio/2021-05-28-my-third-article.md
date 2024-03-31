@@ -3,11 +3,17 @@ title: My Third Article
 date: 2021-05-28
 tags: ['post', 'featured']
 disc: Branding and Illustration
-snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
-snipImgAlt: wework and address typeset in white on black
-image: /assets/portfolio/article-3.jpg
-imageAlt: This is a test
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
+snipImgSet:
+  - snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+  - snipVidB: true
+  - snipVidSource: src/assets/portfolio/weworkvid.mp4
+  - snipAlt: wework reel
+ftImgSet:
+  - ftImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+  - ftVidB: true
+  - ftVidSource: src/assets/portfolio/weworkvid.mp4
+  - ftAlt: wework reel
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum facilisis leo vel fringilla. Eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum. Tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras fermentum. Ut sem nulla pharetra diam sit amet nisl. Est velit egestas dui id ornare. Eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum. Ut sem viverra aliquet eget. Semper feugiat nibh sed pulvinar proin gravida hendrerit lectus a. At augue eget arcu dictum. Ut enim blandit volutpat maecenas volutpat blandit aliquam etiam. Amet aliquam id diam maecenas ultricies mi.

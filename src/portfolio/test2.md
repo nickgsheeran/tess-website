@@ -16,12 +16,16 @@ tags:
 disc: Branding & Illustration
 collabs: "Art directed by: Jelle Marechal  Design in collaboration with: Jelle
   Marechal, Gabriel Ribes"
-snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
-fVideoB: false
-fSrcb: src/assets/portfolio/weworkvid.mp4
-fAlt: wework reel
-snipImgAlt: wework and address typeset in white on black
-imageAlt: meave's sex palace on a list
+snipImgSet:
+  - snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+  - snipVidB: true
+  - snipVidSource: src/assets/portfolio/weworkvid.mp4
+  - snipAlt: wework reel
+ftImgSet:
+  - ftImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
+  - ftVidB: true
+  - ftVidSource: src/assets/portfolio/weworkvid.mp4
+  - ftAlt: wework reel
 images:
   - imgRow:
       mSize: large

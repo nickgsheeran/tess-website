@@ -20,11 +20,26 @@ collections:
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - { label: "Disciplines", name: "disc", widget: "string" }
       - { label: "Collaborators", name: "collabs", widget: "string" }
-      - { label: "Snippet image and featured image poster", name: "snipImg", widget: "image" }
-      - { label: "Is the featured image a video?", name: "fVideoB", widget: "boolean", default: false }
-      - { label: "Featured Image source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 formats for video.", name: "fSrcb", widget: "string" }
-      - { label: "Video WebM source", name: "fWmSrc", widget: "string", required: false }
-      - { label: "Featured and snippet image alt text", name: "fAlt", widget: "string", default: "visual asset, needs alt text" }
+      - label: "Snippet Image" 
+        name: "snipImgSet" 
+        widget: "list"
+        summary: 'snippet image settings'
+        fields:
+        - { label: "Image / Video Poster", name: "snipImg", widget: "image" }
+        - { label: "Video?", name: "snipVidB", widget: "boolean", default: false }
+        - { label: "Source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 in this slot.", name: "snipVidSource", widget: "string" }
+        - { label: "Video WebM source, more optimized but optional", name: "snipWebmSource", widget: "string", required: false }
+        - { label: "Alt text (short description of the asset)", name: "snipAlt", widget: "string", default: "visual asset, needs alt text" }
+      - label: "Featured Image" 
+        name: "ftImgSet" 
+        widget: "list"
+        summary: 'featured image settings'
+        fields:
+        - { label: "Image / Video Poster", name: "ftImg", widget: "image" }
+        - { label: "Video?", name: "ftVidB", widget: "boolean", default: false }
+        - { label: "Source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 in this slot.", name: "ftVidSource", widget: "string" }
+        - { label: "Video WebM source path (more optimized but optional)", name: "ftWebmSource", widget: "string", required: false }
+        - { label: "Alt text (short description of the asset)", name: "ftAlt", widget: "string", default: "visual asset, needs alt text" }
       - label: "Image Rows" 
         name: "images" 
         widget: "list"

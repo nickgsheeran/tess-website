@@ -3,19 +3,19 @@ layout: 'base.njk'
 permalink: "/{{ title | slugify }}/"
 ---
 
-<figure class="main-article__figure">
+{# <figure class="main-article__figure">
 {% if fVideoB %}
-  <video playsinline loop="loop" autoplay="autoplay" muted poster="{{snipImg}}">
-    {% if fWmSrc %}
-      {{WmSrc | replace("src", "")}}
-      <source src="{{WmSrc}}" type="video/webm">
+  <video playsinline loop="loop" autoplay="autoplay" muted poster="{{ftImg}}">
+    {% if ftWebmSource %}
+      {{ftWebmSource | replace("src", "")}}
+      <source src="{{ftWebmSource}}" type="video/webm">
     {% endif %}
-    <source src="{{fSrcb | replace("src", "")}}" type="video/mp4">
+    <source src="{{ftVidSource | replace("src", "")}}" type="video/mp4">
   </video>
   {% else %}
-  {% Image "./src/"+snipImg, snipImgAlt %}
+  {% Image "./src/"+ftImag, ftAlt %}
   {% endif %}
-</figure>
+</figure> #}
 
 <article class="container">
 
@@ -38,7 +38,7 @@ permalink: "/{{ title | slugify }}/"
   </div>
 </section>
 
-  {{ content | safe }}
+  {# {{ content | safe }}
   <section class="pGrid article-images">
     {%- for theImage2 in images -%}
       <div class="{{theImage2.imgRow.mSize}} {{theImage2.imgRow.layout}}">
@@ -70,7 +70,7 @@ permalink: "/{{ title | slugify }}/"
     {% endfor %}
     {%set sorted = collections.post | reverse%}
     <a href="{{sorted[j].url}}" id="nextBtn">Next Project</a> 
-  </section>
+  </section> #}
 
 
 </article>
