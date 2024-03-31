@@ -27,7 +27,7 @@ collections:
         fields:
         - { label: "Image / Video Poster", name: "snipImg", widget: "image" }
         - { label: "Video?", name: "snipVidB", widget: "boolean", default: false }
-        - { label: "Source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 in this slot.", name: "snipVidSource", widget: "string" }
+        - { label: "Source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 in this slot.", name: "snipVidSource", widget: "string", required: false}
         - { label: "Video WebM source, more optimized but optional", name: "snipWebmSource", widget: "string", required: false }
         - { label: "Alt text (short description of the asset)", name: "snipAlt", widget: "string", default: "visual asset, needs alt text" }
       - label: "Featured Image" 
@@ -37,7 +37,7 @@ collections:
         fields:
         - { label: "Image / Video Poster", name: "ftImg", widget: "image" }
         - { label: "Video?", name: "ftVidB", widget: "boolean", default: false }
-        - { label: "Source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 in this slot.", name: "ftVidSource", widget: "string" }
+        - { label: "Source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 in this slot.", name: "ftVidSource", widget: "string", required: false }
         - { label: "Video WebM source path (more optimized but optional)", name: "ftWebmSource", widget: "string", required: false }
         - { label: "Alt text (short description of the asset)", name: "ftAlt", widget: "string", default: "visual asset, needs alt text" }
       - label: "Image Rows" 

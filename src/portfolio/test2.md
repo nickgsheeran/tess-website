@@ -17,13 +17,9 @@ disc: Branding & Illustration
 collabs: "Art directed by: Jelle Marechal  Design in collaboration with: Jelle
   Marechal, Gabriel Ribes"
 snipImgSet:
-  - snipImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
-  - snipVidB: false
-  - snipAlt: wework reel
-ftImgSet:
-  - ftImg: /assets/portfolio/framework_texture_rgb_hot_02-1.jpg
-  - ftVidB: false
-  - ftAlt: wework reel
+snipImg: src/assets/portfolio/bridge-poster.jpg
+snipVidB: false
+snipAlt: sdf
 images:
   - imgRow:
       mSize: large
