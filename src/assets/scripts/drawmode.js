@@ -29,6 +29,8 @@ function drawSwitch() {
     x.style.display = "none";
     document.getElementById("drawCheck").style["background"] = "none";
     drawIt = false;
+    history = [];
+    clear();
   }
 }
 function setup() {
@@ -44,27 +46,24 @@ function draw() {
     if (infooter === false && mouseIsPressed === true) {
         i++;
         if (i % 5 == 0) {
-          // if (history.length > 2) {clear()};
           history.push({x: mouseX, y: mouseY});
           if (history.length <= 2) {
             return;
           }
         }
-    }
-  }
-  if (drawable == true) {
-    if (history.length > 2) {
-      strokeWeight(50);
-      stroke(0);
-      noFill();
-      beginShape();
-      vertex(history[0].x, history[0].y);
-      for (let i = 1; i < history.length - 2; i++) {
-        const xc = (history[i].x + history[i + 1].x) / 2;
-        const yc = (history[i].y + history[i + 1].y) / 2;
-        quadraticVertex(history[i].x, history[i].y, xc, yc);
-      }
-      endShape();
+        if (history.length > 2) {
+          strokeWeight(50);
+          stroke(0);
+          noFill();
+          beginShape();
+          vertex(history[0].x, history[0].y);
+          for (let i = 1; i < history.length - 2; i++) {
+            const xc = (history[i].x + history[i + 1].x) / 2;
+            const yc = (history[i].y + history[i + 1].y) / 2;
+            quadraticVertex(history[i].x, history[i].y, xc, yc);
+          }
+          endShape();
+        }
     }
   }
 }
@@ -75,8 +74,6 @@ function mouseReleased() {
   if (drawIt == true) {
     drawable = true;
     if (infooter == false) {
-      // lines.push(new LineObj);
-      // console.log(lines);
       if (history.length <= 2) {
         i++;
         history.push({x: mouseX, y: mouseY});
@@ -85,7 +82,6 @@ function mouseReleased() {
         ellipse(mouseX, mouseY, 50);
         return;
       }
-      console.log("mouse released, new history length:", history.length, ",meaning, this much time passed:", history2 - history.length);
       if (Math.abs((history2 - history.length)) < 4) {
         fill(0);
         noStroke();
@@ -93,10 +89,7 @@ function mouseReleased() {
         noFill();
         strokeWeight(50);
       }
-    } else if (infooter === true) {
-      history = [];
-      clear();
-    }
+    } 
     history.push({x: "break", y: "break"});
     for (var i = 0; i < history.length - 1; i++) {
       if (history[i].x = "break") {
@@ -104,7 +97,6 @@ function mouseReleased() {
     }
   }
 }
-
 thefooter.addEventListener("mouseenter", (e) => {
   infooter = true
 });

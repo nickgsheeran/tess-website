@@ -68,8 +68,14 @@ permalink: "/{{ title | slugify }}/"
       {% set j = i %}
       {% endif %}
     {% endfor %}
+    {% set thetitlesLength = thetitles | length %}
     {%set sorted = collections.post | reverse%}
-    <a href="{{sorted[j].url}}" id="nextBtn">Next Project</a> 
+    {% if thetitlesLength == j%}
+      <a href="{{sorted[0].url}}" id="nextBtn">Next Project</a> 
+    {% else %}
+      <a href="{{sorted[j].url}}" id="nextBtn">Next Project</a> 
+    {% endif %}
+
   </section>
 
 
