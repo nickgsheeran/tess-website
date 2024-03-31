@@ -17,9 +17,13 @@ disc: Branding & Illustration
 collabs: "Art directed by: Jelle Marechal  Design in collaboration with: Jelle
   Marechal, Gabriel Ribes"
 snipImgSet:
-snipImg: src/assets/portfolio/bridge-poster.jpg
-snipVidB: false
-snipAlt: sdf
+  snipVidB: false
+  snipAlt: visual asset, needs alt text
+  snipImg: /assets/portfolio/ac-promo-interior-11.jpg
+ftImgSet:
+  ftVidB: false
+  ftAlt: visual asset, needs alt text
+  ftImg: /assets/portfolio/ac-promo-interior-11.jpg
 images:
   - imgRow:
       mSize: large
