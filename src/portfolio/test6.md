@@ -1,11 +1,11 @@
 ---
-title: test6
-description: t﻿est6 desc
+title: WeWork
+description: Lorem Ipsum.
 date: 2024-03-31T19:02:24.666Z
-tags:
-  - post
-disc: art
-collabs: ada
+tags: []
+disc: Branding, Illustration
+collabs: "Art Directed by: Jelle Meréchal, Design in collaboration with: Gabriel
+  Ribes, Project Managed by: Eric Brown"
 snipImgSet:
   snipVidB: false
   snipAlt: visual asset, needs alt text
