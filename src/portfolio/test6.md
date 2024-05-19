@@ -26,7 +26,8 @@ snipImgSet:
     image writing something on a piece of paper. There is a laptop in the top of
     the image. All of these objects showcase different elements of the new
     WeWork brand.
-  snipImg: /assets/portfolio/01.jpg
+  snipImg: /assets/portfolio/wework.png
+  snipVidSource: src/assets/portfolio/wework.mp4
 ftImgSet:
   ftVidB: true
   ftAlt: visual asset, needs alt text
