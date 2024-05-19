@@ -18,7 +18,7 @@ collabs: Creative Direction (Jelle Maréchal), Design (Tess Havas/Gabriel
   Strategy (Angie Shih/Eve Wallack), Account Management (Eric Brown/Patrick
   Richardson), Case Photography (Kendall Mills)
 snipImgSet:
-  snipVidB: false
+  snipVidB: true
   snipAlt: Photo of a table with papers, notepads and pens scattered around it.
     There is an open notebook with the branded wework illustrations sketched
     into it, and a ruler on top. There is a hand in the bottom right of the
