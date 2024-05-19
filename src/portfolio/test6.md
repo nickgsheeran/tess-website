@@ -1,17 +1,34 @@
 ---
 title: WeWork
-description: Lorem Ipsum.
+description: >-
+  Over the course of a decade, WeWork became the undisputed leader in coworking.
+  After its controversial founder’s exit, WeWork was left with an identity
+  crisis. They needed to simultaneously shake off past narratives as well as
+  navigate a new office landscape shaped by the pandemic.  At Franklyn, I helped
+  WeWork reimagine their brand strategy and visual identity to cement their
+  position as industry leaders.
+
+
+  Quickly, we realized that WeWork was in the unique position to answer questions of where, how, and even why we work. Recognizing that decision-making power in the workplace is moving back to the individual, we wanted to shift the conversation from “we” to “you”. With this idea in mind, we visualized WeWork as a platform for its members through a layered system of symbols and illustrations. The geometric shapes symbolize “We” — the buildings, hands, plates, furniture, and other objects that form the foundation of a WeWork. The illustrations symbolize “You” — the individuals who take those objects and make them their own to create and innovate. At Franklyn, I came up with this original concept, crafted the illustration style, and executed many of the final designs.
 date: 2024-03-31T19:02:24.666Z
 tags: []
 disc: Branding, Illustration
-collabs: "Art Directed by: Jelle Meréchal, Design in collaboration with: Gabriel
-  Ribes, Project Managed by: Eric Brown"
+collabs: Creative Direction (Jelle Maréchal), Design (Tess Havas/Gabriel
+  Ribes/Jelle Maréchal), Illustration (Tess Havas), Typography (Graham Bradley),
+  Strategy (Angie Shih/Eve Wallack), Account Management (Eric Brown/Patrick
+  Richardson), Case Photography (Kendall Mills)
 snipImgSet:
   snipVidB: false
-  snipAlt: visual asset, needs alt text
-  snipImg: /assets/portfolio/article-2.jpg
+  snipAlt: Photo of a table with papers, notepads and pens scattered around it.
+    There is an open notebook with the branded wework illustrations sketched
+    into it, and a ruler on top. There is a hand in the bottom right of the
+    image holding a WeWork card. There is another hand in the top left of the
+    image writing something on a piece of paper. There is a laptop in the top of
+    the image. All of these objects showcase different elements of the new
+    WeWork brand.
+  snipImg: /assets/portfolio/01.jpg
 ftImgSet:
-  ftVidB: false
+  ftVidB: true
   ftAlt: visual asset, needs alt text
   ftImg: /assets/portfolio/article-2.jpg
 images:
