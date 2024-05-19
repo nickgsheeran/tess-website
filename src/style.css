@@ -566,6 +566,23 @@ a {
   margin-bottom: -0.1rem;
 }
 
+#fzf-illo {
+  position: fixed;
+  display: flex;
+  top: 0;
+  z-index: -1000;
+  width: 100%;
+  height: 100%;
+}
+
+#fzf-illo > svg {
+  transform: scale(1.4);
+}
+@media (max-width: 800px) {
+  #fzf-illo > svg {
+    transform: scale(2.25);
+  }
+}
 /* //////////////////////
   Mobile 
   /////////////////////// */
@@ -596,7 +613,7 @@ a {
     padding: .25rem 1rem 0;
   }
 
-  .articles__list > li:nth-child(4n) > * {
+  .articles__list > li:first-child > *, .articles__list > li:nth-child(4n) > * {
     max-width: none;
   }
 
