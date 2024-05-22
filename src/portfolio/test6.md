@@ -18,7 +18,7 @@ collabs: Creative Direction (Jelle Maréchal), Design (Tess Havas/Gabriel
   Strategy (Angie Shih/Eve Wallack), Account Management (Eric Brown/Patrick
   Richardson), Case Photography (Kendall Mills)
 snipImgSet:
-  snipVidB: false
+  snipVidB: true
   snipAlt: Photo of a table with papers, notepads and pens scattered around it.
     There is an open notebook with the branded wework illustrations sketched
     into it, and a ruler on top. There is a hand in the bottom right of the
@@ -26,7 +26,8 @@ snipImgSet:
     image writing something on a piece of paper. There is a laptop in the top of
     the image. All of these objects showcase different elements of the new
     WeWork brand.
-  snipImg: /assets/portfolio/01.jpg
+  snipImg: /assets/portfolio/wework.png
+  snipVidSource: src/assets/portfolio/wework.mp4
 ftImgSet:
   ftVidB: true
   ftAlt: visual asset, needs alt text
