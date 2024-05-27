@@ -141,8 +141,10 @@ images:
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: a space for work billboard
-          srcb: src/assets/portfolio/franklyn_wework_08_ooh_01-1.jpg
+          alt: A photo of a billboard that says "A space for work and so much more". Below
+            the type are layered illustrations of different types of people
+            doing different things at a stylized two story WeWork.
+          srcb: src/assets/portfolio/16.jpg
   - imgRow:
       mSize: large
       layout: one-col
