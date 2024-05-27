@@ -6,7 +6,7 @@ description: >-
   crisis. They needed to simultaneously shake off past narratives as well as
   navigate a new office landscape shaped by the pandemic.  At Franklyn, I helped
   WeWork reimagine their brand strategy and visual identity to cement their
-  position as industry leaders.<br>
+  position as industry leaders.
 
 
   Quickly, we realized that WeWork was in the unique position to answer questions of where, how, and even why we work. Recognizing that decision-making power in the workplace is moving back to the individual, we wanted to shift the conversation from “we” to “you”. With this idea in mind, we visualized WeWork as a platform for its members through a layered system of symbols and illustrations. The geometric shapes symbolize “We” — the buildings, hands, plates, furniture, and other objects that form the foundation of a WeWork. The illustrations symbolize “You” — the individuals who take those objects and make them their own to create and innovate. At Franklyn, I came up with this original concept, crafted the illustration style, and executed many of the final designs.
@@ -19,36 +19,37 @@ collabs: Creative Direction (Jelle Maréchal), Design (Tess Havas/Gabriel
   Richardson), Case Photography (Kendall Mills)
 snipImgSet:
   snipVidB: true
-  snipAlt: Photo of a table with papers, notepads and pens scattered around it.
+  snipAlt: A video flipping through different WeWork address' set in the WeWork
+    serif typeface.
+  snipImg: /assets/portfolio/wework.png
+  snipVidSource: src/assets/portfolio/wework.mp4
+ftImgSet:
+  ftVidB: true
+  ftAlt: Photo of a table with papers, notepads and pens scattered around it.
     There is an open notebook with the branded wework illustrations sketched
     into it, and a ruler on top. There is a hand in the bottom right of the
     image holding a WeWork card. There is another hand in the top left of the
     image writing something on a piece of paper. There is a laptop in the top of
     the image. All of these objects showcase different elements of the new
     WeWork brand.
-  snipImg: /assets/portfolio/wework.png
-  snipVidSource: src/assets/portfolio/wework.mp4
-ftImgSet:
-  ftVidB: true
-  ftAlt: visual asset, needs alt text
-  ftImg: /assets/portfolio/article-2.jpg
+  ftImg: /assets/portfolio/01.jpg
 images:
   - imgRow:
       mSize: large
       layout: one-col
       imageRowContents:
-        - videoB: true
-          pSrc: src/assets/portfolio/bridge-poster.jpg
-          alt: wework logotype
-          srcb: src/assets/portfolio/bridge.mp4
+        - videoB: false
+          pSrc: no
+          alt: WeWork Logo in white on a black background.
+          srcb: src/assets/portfolio/02.jpg
   - imgRow:
       mSize: small
       layout: one-col
       imageRowContents:
-        - videoB: false
+        - videoB: true
           pSrc: no
-          alt: bezier detail of wework typeface
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.34-2.jpg
+          alt: Shots of different bezier details of the WeWork typeface.
+          srcb: src/assets/portfolio/03_small.mp4
   - imgRow:
       mSize: large
       layout: two-col-right
