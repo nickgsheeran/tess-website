@@ -66,10 +66,13 @@ images:
       mSize: large
       layout: one-col
       imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: illustration of a figure gesturing at a computer icon
-          srcb: src/assets/portfolio/franklyn_wework_05_type_specimen-1.jpg
+        - videoB: true
+          pSrc: src/assets/portfolio/screenshot-2023-07-30-at-2.32-1.jpg
+          alt: Animation of different WeWork illustrated figures interacting with WeWork
+            icons. The illustrations are created with a Crayon like brush, while
+            the icons are geometric, vector shapes. The animation starts with a
+            figure gesturing to a computer, and ends with the WeWork logo.
+          srcb: src/assets/portfolio/06_small.mp4
   - imgRow:
       mSize: small
       layout: one-col
