@@ -125,16 +125,16 @@ images:
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: create
-          srcb: src/assets/portfolio/artboard-1.jpg
+          alt: Type that says "Create" with a pencil illustration layered on top.
+          srcb: src/assets/portfolio/13.png
         - videoB: false
           pSrc: no
-          alt: grow
-          srcb: src/assets/portfolio/artboard-2.jpg
+          alt: Type that says "Grow" with a flower illustration layered on top.
+          srcb: src/assets/portfolio/14.png
         - videoB: false
           pSrc: no
-          alt: collab
-          srcb: src/assets/portfolio/artboard-3.jpg
+          alt: Type that says "Collab" with a hands illustration layered on top.
+          srcb: src/assets/portfolio/15.png
   - imgRow:
       mSize: large
       layout: one-col
