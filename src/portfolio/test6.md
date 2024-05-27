@@ -57,11 +57,11 @@ images:
         - videoB: false
           pSrc: no
           alt: a grid of accented glyphs from the wework typeface
-          srcb: src/assets/portfolio/franklyn_wework_09_type_02-1.jpg
+          srcb: src/assets/portfolio/04.png
         - videoB: false
           pSrc: no
           alt: type specimen detail of wework serif italic and regular
-          srcb: src/assets/portfolio/franklyn_wework_05_type_specimen-1.jpg
+          srcb: src/assets/portfolio/04.png
   - imgRow:
       mSize: large
       layout: one-col
