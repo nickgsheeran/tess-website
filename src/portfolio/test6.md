@@ -93,14 +93,15 @@ images:
       mSize: small
       layout: two-col-even
       imageRowContents:
-        - videoB: false
+        - videoB: true
           pSrc: no
-          alt: a wework instagram post of a group working in a personal office
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.35-1.jpg
-        - videoB: false
+          alt: "An instagram post showcasing WeWork's different offerings: A dedicated
+            desk, Personal Office and Conference rooms."
+          srcb: src/assets/portfolio/09_small.mp4
+        - videoB: true
           pSrc: no
-          alt: an instagram post of a steaming cup of coffee
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.56-1.jpg
+          alt: An instagram post of different illustrations placed in a coffee cup icon.
+          srcb: src/assets/portfolio/10_small.mp4
   - imgRow:
       mSize: large
       layout: one-col
