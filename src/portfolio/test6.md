@@ -151,7 +151,8 @@ images:
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: for all the ways you work wall
-          srcb: src/assets/portfolio/franklyn_wework_28_ooh_05-1.jpg
+          alt: A construction banner with the WeWork logo and different illustrations
+            layered on top.
+          srcb: src/assets/portfolio/17.jpg
 image: /assets/portfolio/franklyn_wework_01_hero_image-1.jpg
 ---
