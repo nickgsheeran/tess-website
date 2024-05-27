@@ -115,10 +115,10 @@ images:
       mSize: small
       layout: one-col
       imageRowContents:
-        - videoB: false
+        - videoB: true
           pSrc: no
-          alt: a spread from wework magazine
-          srcb: src/assets/portfolio/franklyn_wework_11_magazine_spread_1-1.jpg
+          alt: A video flipping through different spreads of the WeWork magazine.
+          srcb: src/assets/portfolio/12_small.mp4
   - imgRow:
       mSize: large
       layout: three-col
