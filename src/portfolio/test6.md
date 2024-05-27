@@ -108,8 +108,9 @@ images:
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: space staffed supported billboard
-          srcb: src/assets/portfolio/franklyn_wework_19_ooh_04-1.jpg
+          alt: A billboard that says "Space, Staffed Supported" with a photo of someone
+            working at a desk in the middle of the type.
+          srcb: src/assets/portfolio/11.jpg
   - imgRow:
       mSize: small
       layout: one-col
