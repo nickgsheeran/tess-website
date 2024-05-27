@@ -87,8 +87,8 @@ images:
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: a photo of wework magazine
-          srcb: src/assets/portfolio/franklyn_wework_22_magazine-1.jpg
+          alt: A photo of wework magazine.
+          srcb: src/assets/portfolio/08.jpg
   - imgRow:
       mSize: small
       layout: two-col-even
