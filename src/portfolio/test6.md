@@ -77,10 +77,10 @@ images:
       mSize: small
       layout: one-col
       imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: a desk with an iMac displaying the wework website
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.34-3.jpg
+        - videoB: true
+          pSrc: src/assets/portfolio/screenshot-2023-07-30-at-2.34-3.jpg
+          alt: A desk with an iMac displaying the wework website.
+          srcb: src/assets/portfolio/07_small.mp4
   - imgRow:
       mSize: large
       layout: one-col
