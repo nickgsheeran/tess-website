@@ -1,11 +1,11 @@
 ---
 title: test3
-d2:
-  - hello
-  - hello
 date: 2024-03-31T15:45:57.067Z
 tags:
   - post
+d2:
+  - hello
+  - hello
 disc: art
 collabs2:
   - Creative Direction (Jelle Maréchal)
@@ -26,4 +26,12 @@ images:
           pSrc: no
           alt: visual asset, needs alt text
           srcb: src/assets/portfolio/ac-promo-interior-11.jpg
+  - imgRow:
+      mSize: small
+      layout: one-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: visual asset, needs alt text
+          srcb: src/assets/portfolio/testimage.png
 ---
