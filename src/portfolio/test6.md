@@ -21,10 +21,6 @@ d2:
     Franklyn, I came up with this original concept, crafted the illustration
     style, and executed many of the final designs.
 disc: Branding, Illustration
-collabs: Creative Direction (Jelle Maréchal), Design (Tess Havas/Gabriel
-  Ribes/Jelle Maréchal), Illustration (Tess Havas), Typography (Graham Bradley),
-  Strategy (Angie Shih/Eve Wallack), Account Management (Eric Brown/Patrick
-  Richardson), Case Photography (Kendall Mills)
 collabs2:
   - Creative Direction (Jelle Maréchal)
   - Design (Tess Havas/Gabriel Ribes/Jelle Maréchal), Illustration (Tess Havas),

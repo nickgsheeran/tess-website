@@ -7,7 +7,8 @@ date: 2024-03-31T19:01:42.497Z
 tags:
   - post
 disc: art
-collabs: ada
+collabs2:
+  - Creative Direction (Jelle Maréchal)
 snipImgSet:
   snipVidB: false
   snipAlt: visual asset, needs alt text

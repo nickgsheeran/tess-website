@@ -22,7 +22,10 @@ collections:
         widget: "list"
         field: {label: "Paragraph", name: "dPar", widget: "text"}
       - { label: "Disciplines", name: "disc", widget: "string" }
-      - { label: "Collaborators", name: "collabs", widget: "string" }
+      - label: "Collaborators"
+        name: "collabs2"
+        widget: "list"
+        field: {collapsed: "false", label: "Role(Name)", name: "collaber2", widget: "string"}
       - label: "Snippet Image" 
         name: "snipImgSet" 
         widget: "object"

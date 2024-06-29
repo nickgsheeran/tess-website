@@ -449,8 +449,14 @@ a {
   flex-grow: 1;
 }
 
-.intro-details > p {
+.intro-details > ul {
   flex-shrink: 20;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0;
+}
+.intro-details > ul > li {
+  display: block;
 }
 
 .pGrid {
