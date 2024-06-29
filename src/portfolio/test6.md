@@ -2,11 +2,6 @@
 title: WeWork
 date: 2024-03-31T19:02:24.666Z
 tags: []
-disc: Branding, Illustration
-collabs: Creative Direction (Jelle Maréchal), Design (Tess Havas/Gabriel
-  Ribes/Jelle Maréchal), Illustration (Tess Havas), Typography (Graham Bradley),
-  Strategy (Angie Shih/Eve Wallack), Account Management (Eric Brown/Patrick
-  Richardson), Case Photography (Kendall Mills)
 d2:
   - Over the course of a decade, WeWork became the undisputed leader in
     coworking. After its controversial founder’s exit, WeWork was left with an
@@ -25,6 +20,16 @@ d2:
     who take those objects and make them their own to create and innovate. At
     Franklyn, I came up with this original concept, crafted the illustration
     style, and executed many of the final designs.
+disc: Branding, Illustration
+collabs: Creative Direction (Jelle Maréchal), Design (Tess Havas/Gabriel
+  Ribes/Jelle Maréchal), Illustration (Tess Havas), Typography (Graham Bradley),
+  Strategy (Angie Shih/Eve Wallack), Account Management (Eric Brown/Patrick
+  Richardson), Case Photography (Kendall Mills)
+collabs2:
+  - Creative Direction (Jelle Maréchal)
+  - Design (Tess Havas/Gabriel Ribes/Jelle Maréchal), Illustration (Tess Havas),
+    Typography (Graham Bradley), Strategy (Angie Shih/Eve Wallack)
+  - Illustration (Tess Havas)
 snipImgSet:
   snipVidB: true
   snipAlt: A video flipping through different WeWork address' set in the WeWork
