@@ -8,6 +8,7 @@ description: >-
   WeWork reimagine their brand strategy and visual identity to cement their
   position as industry 
 
+  \﻿n
 
   leaders.
 
