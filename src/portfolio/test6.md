@@ -1,4 +1,14 @@
 ---
+snipImgSet:
+  snipVidB: true
+  snipAlt: A video flipping through different WeWork address' set in the WeWork
+    serif typeface.
+  snipImg: /assets/portfolio/wework.png
+  snipVidSource: src/assets/portfolio/wework.mp4
+collabs: Creative Direction (Jelle Maréchal), Design (Tess Havas/Gabriel
+  Ribes/Jelle Maréchal), Illustration (Tess Havas), Typography (Graham Bradley),
+  Strategy (Angie Shih/Eve Wallack), Account Management (Eric Brown/Patrick
+  Richardson), Case Photography (Kendall Mills)
 title: WeWork
 date: 2024-03-31T19:02:24.666Z
 tags: []
@@ -23,15 +33,7 @@ d2:
 disc: Branding, Illustration
 collabs2:
   - Creative Direction (Jelle Maréchal)
-  - Design (Tess Havas/Gabriel Ribes/Jelle Maréchal), Illustration (Tess Havas),
-    Typography (Graham Bradley), Strategy (Angie Shih/Eve Wallack)
   - Illustration (Tess Havas)
-snipImgSet:
-  snipVidB: true
-  snipAlt: A video flipping through different WeWork address' set in the WeWork
-    serif typeface.
-  snipImg: /assets/portfolio/wework.png
-  snipVidSource: src/assets/portfolio/wework.mp4
 ftImgSet:
   ftVidB: true
   ftAlt: Photo of a table with papers, notepads and pens scattered around it.
