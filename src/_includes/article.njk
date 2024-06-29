@@ -53,12 +53,14 @@ permalink: "/{{ title | slugify }}/"
       <div class="{{theImage2.imgRow.mSize}} {{theImage2.imgRow.layout}}">
         {%- for eachImage2 in theImage2.imgRow.imageRowContents -%}
           {% if eachImage2.videoB %}
-            <video playsinline muted loop="loop" autoplay="autoplay" poster="{{eachImage2.pSrc | replace("src", "")}}">
-              {% if eachImage2.fWmSrc %}
-                <source src="{{eachImage2.wmSrc | replace("src", "")}}" type="video/webm">
-              {% endif %}
-              <source src="{{eachImage2.srcb | replace("src", "")}}" type="video/mp4">
-            </video>
+            <div>
+              <video playsinline muted loop="loop" autoplay="autoplay" poster="{{eachImage2.pSrc | replace("src", "")}}">
+                {% if eachImage2.fWmSrc %}
+                  <source src="{{eachImage2.wmSrc | replace("src", "")}}" type="video/webm">
+                {% endif %}
+                <source src="{{eachImage2.srcb | replace("src", "")}}" type="video/mp4">
+              </video>
+            </div>
             {% else %}
             {% Image "./"+eachImage2.srcb, eachImage2.alt  %}
           {% endif %}
