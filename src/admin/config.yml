@@ -15,9 +15,12 @@ collections:
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "markdown" }
       - { label: "Date", name: "date", widget: "datetime" }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
+      - label: "Description"
+        name: "d2"
+        widget: "list"
+        field: {label: "Paragraph", name: "dPar", widget: "text"}
       - { label: "Disciplines", name: "disc", widget: "string" }
       - { label: "Collaborators", name: "collabs", widget: "string" }
       - label: "Snippet Image" 

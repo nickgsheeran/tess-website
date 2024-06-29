@@ -1,6 +1,8 @@
 ---
 title: test3
-description: t﻿est3 desc
+d2:
+  - hello
+  - hello
 date: 2024-03-31T15:45:57.067Z
 tags:
   - post

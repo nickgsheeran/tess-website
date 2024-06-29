@@ -67,6 +67,7 @@ module.exports = function(eleventyCongfig) {
 
       // Return your Object options:
   return {
+    markdownTemplateEngine: "njk",
     dir: {
       input: "src",
       output: "public"
