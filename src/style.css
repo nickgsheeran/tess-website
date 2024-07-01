@@ -457,7 +457,7 @@ a {
 }
 .intro-details > ul > li {
   display: block;
-  font-size: 1.75em;
+  font-size: 1.5rem;
 }
 
 .pGrid {
@@ -661,6 +661,10 @@ a {
 
   #disc {
     width: 100%;
+  }
+
+  .intro-details > ul > li, #disc {
+    font-size: var(--400);
   }
 
   .articles__list {
