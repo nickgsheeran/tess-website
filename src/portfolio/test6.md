@@ -72,7 +72,7 @@ images:
         - videoB: false
           pSrc: no
           alt: type specimen detail of wework serif italic and regular
-          srcb: src/assets/portfolio/04.png
+          srcb: src/assets/portfolio/05.png
   - imgRow:
       mSize: large
       layout: one-col
@@ -112,7 +112,7 @@ images:
         - videoB: true
           pSrc: no
           alt: An instagram post of different illustrations placed in a coffee cup icon.
-          srcb: src/assets/portfolio/10_small.mp4
+          srcb: src/assets/portfolio/wework_10_coffeemug.mp4
   - imgRow:
       mSize: large
       layout: one-col
