@@ -1,11 +1,11 @@
 ---
-title: test5
+title: Framework
+date: 2024-03-31T19:01:42.497Z
+tags:
+  - Post
 d2:
   - hello
   - hello
-date: 2024-03-31T19:01:42.497Z
-tags:
-  - post
 disc: art
 collabs2:
   - Creative Direction (Jelle Maréchal)
