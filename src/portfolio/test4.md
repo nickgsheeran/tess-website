@@ -24,33 +24,39 @@ snipImgSet:
   snipVidSource: src/assets/portfolio/Marlow_Homepage.jpg
 ftImgSet:
   ftVidB: false
-  ftAlt: visual asset, needs alt text
-  ftImg: /assets/portfolio/article-2.jpg
+  ftAlt: Illustration of lots of people sleeping in different positions on
+    pillows, with different clothing and skin colors on a beige background.
+  ftImg: src/assets/portfolio/Marlow_01_SleeperPattern.png
 images:
   - imgRow:
       mSize: large
       layout: one-col
       imageRowContents:
-        - videoB: true
-          pSrc: src/assets/portfolio/bridge-poster.jpg
-          alt: wework logotype
-          srcb: src/assets/portfolio/bridge.mp4
+        - videoB: false
+          pSrc: no
+          alt: Marlow wordmark set in cream on a forest green background. The wordmark is
+            set in a friendly, rounded typeface.
+          srcb: src/assets/portfolio/Marlow_02_Logo.jpg
+  - imgRow:
+      mSize: large
+      layout: two-col-even
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: Close up of the Marlow wordmark 'M' on a cream background.
+          srcb: src/assets/portfolio/Marlow_03_M.png
+        - videoB: false
+          pSrc: no
+          alt: Three pillows stacked on top of eachother on a yellow background.
+          srcb: src/assets/portfolio/Marlow_04_PillowStack.jpg
   - imgRow:
       mSize: small
       layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: bezier detail of wework typeface
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.34-2.jpg
-  - imgRow:
-      mSize: large
-      layout: two-col-right
-      imageRowContents:
-        - videoB: false
-          pSrc: no
           alt: a grid of accented glyphs from the wework typeface
-          srcb: src/assets/portfolio/franklyn_wework_09_type_02-1.jpg
+          srcb: src/assets/portfolio/Marlow_05_Billboard.jpg
         - videoB: false
           pSrc: no
           alt: type specimen detail of wework serif italic and regular
