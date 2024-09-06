@@ -107,25 +107,31 @@ images:
       layout: one-col
       imageRowContents:
         - videoB: true
-          pSrc: no
+          pSrc: src/assets/portfolio/framework_11_website.png
           alt: Video scrolling through the Framework website.
           srcb: src/assets/portfolio/Framework_11_Website.mp4
   - imgRow:
       mSize: large
-      layout: one-col
+      layout: two-col-even
       imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: space staffed supported billboard
-          srcb: src/assets/portfolio/franklyn_wework_19_ooh_04-1.jpg
+        - videoB: true
+          pSrc: src/assets/portfolio/framework_12_videoposter.png
+          alt: Animated poster that flips through contrasting gradients with contrasting
+            type like "simple/transformative", "hot/cold", etc.
+          srcb: src/assets/portfolio/Framework_12_VideoPoster.mp4
+        - videoB: true
+          pSrc: src/assets/portfolio/framework_13_text.png
+          alt: Text that flips through black and purple backgrounds with different
+            taglines like "the studio for sauna and cold plunge".
+          srcb: src/assets/portfolio/Framework_13_Text.mp4
   - imgRow:
       mSize: small
       layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: a spread from wework magazine
-          srcb: src/assets/portfolio/franklyn_wework_11_magazine_spread_1-1.jpg
+          alt: Three different Framework membership cards on a black background.
+          srcb: src/assets/portfolio/Framework_14_Cards.jpg
   - imgRow:
       mSize: large
       layout: three-col
