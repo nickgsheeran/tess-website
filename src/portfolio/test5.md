@@ -30,7 +30,7 @@ ftImgSet:
   ftWebmSource: src/assets/portfolio/Framework_01_SpinningLogo.mp4
 images:
   - imgRow:
-      mSize: small
+      mSize: large
       layout: one-col
       imageRowContents:
         - videoB: true
@@ -52,41 +52,56 @@ images:
             water).
           srcb: src/assets/portfolio/Framework_04_HotColdAirWater.mp4
   - imgRow:
-      mSize: large
-      layout: two-col-right
-      imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: a grid of accented glyphs from the wework typeface
-          srcb: src/assets/portfolio/franklyn_wework_09_type_02-1.jpg
-        - videoB: false
-          pSrc: no
-          alt: type specimen detail of wework serif italic and regular
-          srcb: src/assets/portfolio/franklyn_wework_05_type_specimen-1.jpg
-  - imgRow:
-      mSize: large
+      mSize: small
       layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: illustration of a figure gesturing at a computer icon
-          srcb: src/assets/portfolio/franklyn_wework_05_type_specimen-1.jpg
+          alt: A wheat pasting poster series with photographs of people in saunas, and
+            contrasting gradients with the caption "hot/cold" and "air/water".
+          srcb: src/assets/portfolio/Framework_05_OOH.jpg
+  - imgRow:
+      mSize: small
+      layout: three-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: Poster of a light blue, yellow and purple gradient to represent the element
+            of "air".
+          srcb: src/assets/portfolio/Framework_06_AirPoster.jpg
+        - videoB: false
+          pSrc: no
+          alt: Poster of a dark blue, white and purple gradient to represent the element
+            of "cold".
+          srcb: src/assets/portfolio/Framework_07_ColdPoster.jpg
+        - videoB: false
+          pSrc: no
+          alt: Poster of a orange, yellow, white and purple gradient to represent the
+            element of "Hot".
+          srcb: src/assets/portfolio/Framework_08_HotPoster.jpg
   - imgRow:
       mSize: small
       layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: a desk with an iMac displaying the wework website
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.34-3.jpg
+          alt: Billboard with the Framework logo on it. The composition is divided into
+            two, with a gradient treated photo on one side of someone in the
+            sauna, and a black background with the text "sauna and cold plunge
+            for the curious and the active" on the other side.
+          srcb: src/assets/portfolio/Framework_09_Billboard.jpg
   - imgRow:
-      mSize: large
+      mSize: small
       layout: one-col
       imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: a photo of wework magazine
-          srcb: src/assets/portfolio/franklyn_wework_22_magazine-1.jpg
+        - videoB: true
+          pSrc: src/assets/portfolio/framework_10_instagramstories.png
+          alt: 3 Instagram stories on a black background. The left image shows a gradient
+            treated image of someone in a sauna. The middle image shows someone
+            dipping their chin into water. And the right image shows the
+            framework logo in a badge with the type Nashville Tennessee on a
+            gradient background.
+          srcb: src/assets/portfolio/Framework_10_InstagramStories.mp4
   - imgRow:
       mSize: small
       layout: two-col-even
