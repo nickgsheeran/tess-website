@@ -154,6 +154,6 @@ images:
           alt: Two banners against blue sky with clouds. One has a blue gradient that
             reads "cold plunge", the other has a warm gradient that reads
             "Sauna". Both have the Framework logo.
-          srcb: src/assets/portfolio/Framework_16_Sign.jpg
+          srcb: src/assets/portfolio/Framework_17_Banners.jpg
 image: /assets/portfolio/franklyn_wework_01_hero_image-1.jpg
 ---
