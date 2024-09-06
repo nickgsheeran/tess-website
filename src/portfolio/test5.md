@@ -16,32 +16,41 @@ d2:
     Highlighting the radical simplicity of contrast therapy's fundamental elements—hot air and cold water—to visualize the brand, we employed immersive, temperature-inspired gradients that bring the experience to life. The brand strikes a balance between approachability and intellect, creating an inviting environment that communicates the science behind sauna in a simple and straightforward way.
 disc: Branding
 collabs2:
-  - Creative Direction (Jelle Maréchal)
+  - "Creative Direction: Jelle Maréchal"
+  - "Design: Jelle Maréchal, Tess Havas"
 snipImgSet:
   snipVidB: false
-  snipAlt: visual asset, needs alt text
-  snipImg: /assets/portfolio/article-2.jpg
+  snipAlt: Warm gradient made of yellow, orange and purple with texture.
+  snipImg: /assets/portfolio/framework_homepage.jpg
 ftImgSet:
-  ftVidB: false
-  ftAlt: visual asset, needs alt text
-  ftImg: /assets/portfolio/article-2.jpg
+  ftVidB: true
+  ftAlt: Framework Logo spinning on a warm gradient background.
+  ftImg: src/assets/portfolio/Framework_01_SpinningLogo.mp4
+  ftVidSource: src/assets/portfolio/Framework_01_SpinningLogo.mp4
+  ftWebmSource: src/assets/portfolio/Framework_01_SpinningLogo.mp4
 images:
-  - imgRow:
-      mSize: large
-      layout: one-col
-      imageRowContents:
-        - videoB: true
-          pSrc: src/assets/portfolio/bridge-poster.jpg
-          alt: wework logotype
-          srcb: src/assets/portfolio/bridge.mp4
   - imgRow:
       mSize: small
       layout: one-col
       imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: bezier detail of wework typeface
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.34-2.jpg
+        - videoB: true
+          pSrc: src/assets/portfolio/framework_02_logogradientvideo.png
+          alt: Framework wordmark in black over a light blue, purple and yellow gradient.
+          srcb: src/assets/portfolio/Framework_02_LogoGradientVideo.mp4
+  - imgRow:
+      mSize: small
+      layout: two-col-even
+      imageRowContents:
+        - videoB: true
+          pSrc: src/assets/portfolio/framework_03_logohotcold.png
+          alt: A video that shows which parts of the logo represent "hot" and which
+            represent "cold".
+          srcb: src/assets/portfolio/Framework_03_LogoHotCold.mp4
+        - videoB: true
+          pSrc: src/assets/portfolio/framework_04_hotcoldairwater.png
+          alt: A video that shows the different gradients of the brand (hot, cold, air,
+            water).
+          srcb: src/assets/portfolio/Framework_04_HotColdAirWater.mp4
   - imgRow:
       mSize: large
       layout: two-col-right
