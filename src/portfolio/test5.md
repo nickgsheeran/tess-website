@@ -52,7 +52,7 @@ images:
             water).
           srcb: src/assets/portfolio/Framework_04_HotColdAirWater.mp4
   - imgRow:
-      mSize: small
+      mSize: large
       layout: one-col
       imageRowContents:
         - videoB: false
@@ -61,7 +61,7 @@ images:
             contrasting gradients with the caption "hot/cold" and "air/water".
           srcb: src/assets/portfolio/Framework_05_OOH.jpg
   - imgRow:
-      mSize: small
+      mSize: large
       layout: three-col
       imageRowContents:
         - videoB: false
@@ -80,7 +80,7 @@ images:
             element of "Hot".
           srcb: src/assets/portfolio/Framework_08_HotPoster.jpg
   - imgRow:
-      mSize: small
+      mSize: large
       layout: one-col
       imageRowContents:
         - videoB: false
@@ -103,64 +103,57 @@ images:
             gradient background.
           srcb: src/assets/portfolio/Framework_10_InstagramStories.mp4
   - imgRow:
+      mSize: large
+      layout: one-col
+      imageRowContents:
+        - videoB: true
+          pSrc: src/assets/portfolio/framework_11_website.png
+          alt: Video scrolling through the Framework website.
+          srcb: src/assets/portfolio/Framework_11_Website.mp4
+  - imgRow:
+      mSize: large
+      layout: two-col-even
+      imageRowContents:
+        - videoB: true
+          pSrc: src/assets/portfolio/framework_12_videoposter.png
+          alt: Animated poster that flips through contrasting gradients with contrasting
+            type like "simple/transformative", "hot/cold", etc.
+          srcb: src/assets/portfolio/Framework_12_VideoPoster.mp4
+        - videoB: true
+          pSrc: src/assets/portfolio/framework_13_text.png
+          alt: Text that flips through black and purple backgrounds with different
+            taglines like "the studio for sauna and cold plunge".
+          srcb: src/assets/portfolio/Framework_13_Text.mp4
+  - imgRow:
       mSize: small
+      layout: one-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: Three different Framework membership cards on a black background.
+          srcb: src/assets/portfolio/Framework_14_Cards.jpg
+  - imgRow:
+      mSize: large
       layout: two-col-even
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: a wework instagram post of a group working in a personal office
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.35-1.jpg
+          alt: Person sitting in the desert wearing a black T shirt with the Framework
+            logo on the back.
+          srcb: src/assets/portfolio/Framework_15_TShirt.jpg
         - videoB: false
           pSrc: no
-          alt: an instagram post of a steaming cup of coffee
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.56-1.jpg
-  - imgRow:
-      mSize: large
-      layout: one-col
-      imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: space staffed supported billboard
-          srcb: src/assets/portfolio/franklyn_wework_19_ooh_04-1.jpg
+          alt: Metal sign in the dirt/shrubs that reads "Cold Plunge Baths, Lounge Area".
+          srcb: src/assets/portfolio/Framework_16_Sign.jpg
   - imgRow:
       mSize: small
       layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: a spread from wework magazine
-          srcb: src/assets/portfolio/franklyn_wework_11_magazine_spread_1-1.jpg
-  - imgRow:
-      mSize: large
-      layout: three-col
-      imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: create
-          srcb: src/assets/portfolio/artboard-1.jpg
-        - videoB: false
-          pSrc: no
-          alt: grow
-          srcb: src/assets/portfolio/artboard-2.jpg
-        - videoB: false
-          pSrc: no
-          alt: collab
-          srcb: src/assets/portfolio/artboard-3.jpg
-  - imgRow:
-      mSize: large
-      layout: one-col
-      imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: a space for work billboard
-          srcb: src/assets/portfolio/franklyn_wework_08_ooh_01-1.jpg
-  - imgRow:
-      mSize: large
-      layout: one-col
-      imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: for all the ways you work wall
-          srcb: src/assets/portfolio/franklyn_wework_28_ooh_05-1.jpg
+          alt: Two banners against blue sky with clouds. One has a blue gradient that
+            reads "cold plunge", the other has a warm gradient that reads
+            "Sauna". Both have the Framework logo.
+          srcb: src/assets/portfolio/Framework_16_Sign.jpg
 image: /assets/portfolio/franklyn_wework_01_hero_image-1.jpg
 ---
