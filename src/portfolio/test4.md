@@ -1,18 +1,27 @@
 ---
-title: test4
-d2:
-  - hello
-  - hello
+title: Marlow
 date: 2024-03-31T15:55:51.736Z
 tags:
   - post
-disc: art
+d2:
+  - >-
+    Already a direct-to-consumer success story in bedding, Brooklinen saw an
+    opportunity to expand further through creating “The Marlow Pillow.”
+
+
+    The visual identity we created for Marlow centers their belief that there are many different types of sleepers, and Marlow's pillow works the best for most. A simple yet expressive illustration style allows the brand to showcase a diversity of sleeping styles and, when appropriate, ventures into whimsy. With a wordmark and color palette that carefully balances modernity and nostalgia, the brand strives to be appealing to anyone in search of good sleep, whether young or old.
+disc: Branding, Illustration
 collabs2:
-  - Creative Direction (Jelle Maréchal)
+  - "Designed at: Franklyn"
+  - "Art Direction: Michael Freimuth, Elisa Maezano"
+  - "Design: Tess Havas, Gabriel Ribes"
+  - "Illustration: Tess Havas"
 snipImgSet:
   snipVidB: false
-  snipAlt: visual asset, needs alt text
-  snipImg: /assets/portfolio/article-2.jpg
+  snipAlt: "An illustration of an adult woman sleeping on her bed, covered in a
+    yellow blanket, with a black shadow monster under the bed. "
+  snipImg: src/assets/portfolio/Marlow_Homepage.jpg
+  snipVidSource: src/assets/portfolio/Marlow_Homepage.jpg
 ftImgSet:
   ftVidB: false
   ftAlt: visual asset, needs alt text
