@@ -16,6 +16,7 @@ d2:
     Highlighting the radical simplicity of contrast therapy's fundamental elements—hot air and cold water—to visualize the brand, we employed immersive, temperature-inspired gradients that bring the experience to life. The brand strikes a balance between approachability and intellect, creating an inviting environment that communicates the science behind sauna in a simple and straightforward way.
 disc: Branding
 collabs2:
+  - "Designed at: Franklyn"
   - "Creative Direction: Jelle Maréchal"
   - "Design: Jelle Maréchal, Tess Havas"
 snipImgSet:
