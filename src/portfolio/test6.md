@@ -32,6 +32,7 @@ d2:
     style, and executed many of the final designs.
 disc: Branding, Illustration
 collabs2:
+  - "Designed at: Franklyn"
   - "Creative Direction: Jelle Maréchal"
   - "Design: Tess Havas, Jelle Maréchal, Gabriel Ribes"
   - "Typography: Graham Bradley (A+)"
