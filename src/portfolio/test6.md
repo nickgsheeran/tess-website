@@ -32,8 +32,11 @@ d2:
     style, and executed many of the final designs.
 disc: Branding, Illustration
 collabs2:
-  - Creative Direction (Jelle Maréchal)
-  - Illustration (Tess Havas)
+  - "Creative Direction: Jelle Maréchal"
+  - "Design: Tess Havas, Jelle Maréchal, Gabriel Ribes"
+  - "Typography: Graham Bradley (A+)"
+  - "Illustration: Tess Havas"
+  - "Case Photography: Kendall Mills"
 ftImgSet:
   ftVidB: true
   ftAlt: Photo of a table with papers, notepads and pens scattered around it.
