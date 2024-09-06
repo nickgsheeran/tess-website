@@ -52,7 +52,7 @@ images:
             water).
           srcb: src/assets/portfolio/Framework_04_HotColdAirWater.mp4
   - imgRow:
-      mSize: small
+      mSize: large
       layout: one-col
       imageRowContents:
         - videoB: false
@@ -61,7 +61,7 @@ images:
             contrasting gradients with the caption "hot/cold" and "air/water".
           srcb: src/assets/portfolio/Framework_05_OOH.jpg
   - imgRow:
-      mSize: small
+      mSize: large
       layout: three-col
       imageRowContents:
         - videoB: false
@@ -80,7 +80,7 @@ images:
             element of "Hot".
           srcb: src/assets/portfolio/Framework_08_HotPoster.jpg
   - imgRow:
-      mSize: small
+      mSize: large
       layout: one-col
       imageRowContents:
         - videoB: false
@@ -103,17 +103,13 @@ images:
             gradient background.
           srcb: src/assets/portfolio/Framework_10_InstagramStories.mp4
   - imgRow:
-      mSize: small
-      layout: two-col-even
+      mSize: large
+      layout: one-col
       imageRowContents:
-        - videoB: false
+        - videoB: true
           pSrc: no
-          alt: a wework instagram post of a group working in a personal office
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.35-1.jpg
-        - videoB: false
-          pSrc: no
-          alt: an instagram post of a steaming cup of coffee
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.56-1.jpg
+          alt: Video scrolling through the Framework website.
+          srcb: src/assets/portfolio/Framework_11_Website.mp4
   - imgRow:
       mSize: large
       layout: one-col
