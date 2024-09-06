@@ -134,35 +134,26 @@ images:
           srcb: src/assets/portfolio/Framework_14_Cards.jpg
   - imgRow:
       mSize: large
-      layout: three-col
+      layout: two-col-even
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: create
-          srcb: src/assets/portfolio/artboard-1.jpg
+          alt: Person sitting in the desert wearing a black T shirt with the Framework
+            logo on the back.
+          srcb: src/assets/portfolio/Framework_15_TShirt.jpg
         - videoB: false
           pSrc: no
-          alt: grow
-          srcb: src/assets/portfolio/artboard-2.jpg
-        - videoB: false
-          pSrc: no
-          alt: collab
-          srcb: src/assets/portfolio/artboard-3.jpg
+          alt: Metal sign in the dirt/shrubs that reads "Cold Plunge Baths, Lounge Area".
+          srcb: src/assets/portfolio/Framework_16_Sign.jpg
   - imgRow:
-      mSize: large
+      mSize: small
       layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: a space for work billboard
-          srcb: src/assets/portfolio/franklyn_wework_08_ooh_01-1.jpg
-  - imgRow:
-      mSize: large
-      layout: one-col
-      imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: for all the ways you work wall
-          srcb: src/assets/portfolio/franklyn_wework_28_ooh_05-1.jpg
+          alt: Two banners against blue sky with clouds. One has a blue gradient that
+            reads "cold plunge", the other has a warm gradient that reads
+            "Sauna". Both have the Framework logo.
+          srcb: src/assets/portfolio/Framework_16_Sign.jpg
 image: /assets/portfolio/franklyn_wework_01_hero_image-1.jpg
 ---
