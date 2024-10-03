@@ -2,18 +2,19 @@ const {DateTime } = require("luxon");
 const Image = require("@11ty/eleventy-img");
 const sharp = require('sharp');
 const htmlmin = require("html-minifier");
+const path = require("path");
 
-module.exports = function(eleventyCongfig) {
+module.exports = function(eleventyConfig) {
 
-    eleventyCongfig.addPassthroughCopy('./src/style.css');
-    eleventyCongfig.addPassthroughCopy('./src/assets');
-    eleventyCongfig.addPassthroughCopy('./src/admin');
+    eleventyConfig.addPassthroughCopy('./src/style.css');
+    eleventyConfig.addPassthroughCopy('./src/assets');
+    eleventyConfig.addPassthroughCopy('./src/admin');
 
-    eleventyCongfig.addFilter("postDate", (dateObj) => {
+    eleventyConfig.addFilter("postDate", (dateObj) => {
         return DateTime.fromJSDate(dateObj).toLocaleString(DateTime.DATE_MED);
     })
 
-    eleventyCongfig.addNunjucksAsyncShortcode("Image", async (src, alt, cls) => {
+    eleventyConfig.addNunjucksAsyncShortcode("Image", async (src, alt, cls) => {
       if (!alt) {
         throw new Error(`Missing \`alt\` on myImage from: ${src}`);
       }
@@ -63,27 +64,28 @@ module.exports = function(eleventyCongfig) {
     const clss = `${cls}`;
 
       return `<div class="${clss}"><picture> ${source} ${img} </picture></div>`;
+
     });
 
+  // eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
+  //   if (outputPath.endsWith(".html")) {
+  //     return htmlmin.minify(content, {
+  //       collapseWhitespace: true,
+  //       removeComments: true,  
+  //       useShortDoctype: true,
+  //     });
+  //   }
+
+  //   return content;
+  // });
+
       // Return your Object options:
-  return {
-    markdownTemplateEngine: "njk",
-    dir: {
-      input: "src",
-      output: "public"
-    }
-  }
-
-  eleventyConfig.addTransform("htmlmin", (content, outputPath) => {
-    if (outputPath.endsWith(".html")) {
-      return htmlmin.minify(content, {
-        collapseWhitespace: true,
-        removeComments: true,  
-        useShortDoctype: true,
-      });
-    }
-
-    return content;
-  });
+      return {
+        markdownTemplateEngine: "njk",
+        dir: {
+          input: "src",
+          output: "public"
+        }
+      }
 
 }

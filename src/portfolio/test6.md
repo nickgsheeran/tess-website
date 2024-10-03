@@ -4,7 +4,7 @@ snipImgSet:
   snipAlt: A video flipping through different WeWork address' set in the WeWork
     serif typeface.
   snipImg: /assets/portfolio/wework.png
-  snipVidSource: src/assets/portfolio/wework.mp4
+  snipVidSource: /assets/portfolio/wework.mp4
 collabs: Creative Direction (Jelle Maréchal), Design (Tess Havas/Gabriel
   Ribes/Jelle Maréchal), Illustration (Tess Havas), Typography (Graham Bradley),
   Strategy (Angie Shih/Eve Wallack), Account Management (Eric Brown/Patrick
