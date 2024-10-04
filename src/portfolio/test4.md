@@ -105,55 +105,60 @@ images:
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: a wework instagram post of a group working in a personal office
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.35-1.jpg
-  - imgRow:
-      mSize: large
-      layout: one-col
-      imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: space staffed supported billboard
-          srcb: src/assets/portfolio/franklyn_wework_19_ooh_04-1.jpg
-  - imgRow:
-      mSize: small
-      layout: one-col
-      imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: a spread from wework magazine
-          srcb: src/assets/portfolio/franklyn_wework_11_magazine_spread_1-1.jpg
+          alt: "A wheatposting of several Marlow Branded posters. 3 of the posters display
+            the Marlow logo over different colored backgrounds (green, lilac,
+            and orange). And 3 of the posters have unique, whimsical
+            illustrations that pair with taglines. "
+          srcb: src/assets/portfolio/marlow_11b_ooh.jpg
   - imgRow:
       mSize: large
       layout: three-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: create
-          srcb: src/assets/portfolio/artboard-1.jpg
+          alt: A surreal mc escher inspired illustration of a woman walking down a set of
+            stairs that encompasses a pillow.
+          srcb: src/assets/portfolio/marlow_case-study_th-07.png
         - videoB: false
           pSrc: no
-          alt: grow
-          srcb: src/assets/portfolio/artboard-2.jpg
+          alt: An illustration of a pillow that is also a house. A woman gazes up at the
+            windows.
+          srcb: src/assets/portfolio/marlow_case-study_th-06.png
         - videoB: false
           pSrc: no
-          alt: collab
-          srcb: src/assets/portfolio/artboard-3.jpg
+          alt: An illustration of a pillow that is covered in foliage and trees, with a
+            woman riding a bird above it.
+          srcb: src/assets/portfolio/marlow_case-study_th-08.png
+  - imgRow:
+      mSize: small
+      layout: one-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: A billboard of an illustration of a man sleeping with the caption "Find
+            your best rest".
+          srcb: src/assets/portfolio/Marlow_12_FindYourBestRest.jpg
   - imgRow:
       mSize: large
       layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: a space for work billboard
-          srcb: src/assets/portfolio/franklyn_wework_08_ooh_01-1.jpg
+          alt: An illustration of a woman on a bed with something dark with eyes creeping
+            out from underneath the bed.
+          srcb: src/assets/portfolio/Marlow_13_UnderTheBed.jpg
+        - videoB: false
+          pSrc: no
+          alt: A photo of a man sleeping on the Marlow Pillow.
+          srcb: src/assets/portfolio/Marlow_14_PhotoOfSleepingMan.jpg
   - imgRow:
-      mSize: large
+      mSize: small
       layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: for all the ways you work wall
-          srcb: src/assets/portfolio/franklyn_wework_28_ooh_05-1.jpg
+          alt: An illustration of a man riding a bike past a giant, larger than life sized
+            pillow. Clouds and Leaves circle around the pillow.
+          srcb: src/assets/portfolio/Marlow_15_GoodDay.jpg
 image: /assets/portfolio/franklyn_wework_01_hero_image-1.jpg
 ---
