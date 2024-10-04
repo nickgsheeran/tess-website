@@ -25,23 +25,44 @@ snipImgSet:
   snipImg: /assets/portfolio/WPD_Homepage.jpg
 ftImgSet:
   ftVidB: false
-  ftAlt: visual asset, needs alt text
-  ftImg: /assets/portfolio/ac-promo-interior-11.jpg
+  ftAlt: A bright green image, with black text that says "World Parkinson's Day".
+    Various icons are layered messily over the text and background.
+  ftImg: src/assets/portfolio/WPD_01_Header.png
 images:
   - imgRow:
-      mSize: small
+      mSize: large
       layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: visual asset, needs alt text
-          srcb: src/assets/portfolio/ac-promo-interior-11.jpg
+          alt: The World Parkinson's Day logo on a bright blue background.
+          srcb: src/assets/portfolio/WPD_02_Logo.png
+  - imgRow:
+      mSize: large
+      layout: one-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: "A photo of several posters wheat pasted onto a construction site. "
+          srcb: src/assets/portfolio/WPD_03_Wheatposting.jpg
+  - imgRow:
+      mSize: large
+      layout: one-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: 3 instagram stories on a black background. One has an illustration of a
+            hand wrapped around a tulip. One says "let's mobilize for world
+            parkinson's day". The last has the WPD logo with the date April 11,
+            2022.
+          srcb: src/assets/portfolio/WPD_04_InstagramStories.png
   - imgRow:
       mSize: small
       layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: visual asset, needs alt text
-          srcb: src/assets/portfolio/testimage.png
+          alt: A purple poster that says "World Parkinson's Day" with several
+            illustrations messily stamped over the background and logo.
+          srcb: src/assets/portfolio/WPD_05_Poster.jpg
 ---
