@@ -65,4 +65,36 @@ images:
           alt: A purple poster that says "World Parkinson's Day" with several
             illustrations messily stamped over the background and logo.
           srcb: src/assets/portfolio/WPD_05_Poster.jpg
+  - imgRow:
+      mSize: large
+      layout: two-col-even
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: An illustration of two hands clasping together on a yellow background.
+          srcb: src/assets/portfolio/WPD_06_Hands.png
+        - videoB: false
+          pSrc: no
+          alt: An illustration of two heads overlapping together on a purple background. A
+            tulip is formed where the two heads overlap.
+          srcb: src/assets/portfolio/WPD_07_TulipHeads.png
+  - imgRow:
+      mSize: large
+      layout: one-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: Several wheat pasted posters that say "Let's Mobilize. World Parkinson's
+            Day. April 11, 2022." Each poster is a different color and has a
+            different textured illustration overlapping the type.
+          srcb: src/assets/portfolio/WPD_08_Wheatposting.png
+  - imgRow:
+      mSize: small
+      layout: one-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: A photo of a person carrying a black tote. The World Parkinson's Day logo
+            is on the tote.
+          srcb: src/assets/portfolio/WPD_09_Tote.jpg
 ---
