@@ -20,7 +20,7 @@ snipImgSet:
   snipVidB: false
   snipAlt: "An illustration of an adult woman sleeping on her bed, covered in a
     yellow blanket, with a black shadow monster under the bed. "
-  snipImg: /assets/portfolio/Marlow_Homepage.jpg
+  snipImg: /assets/portfolio/marlow_homepage_02.jpg
   snipVidSource: /assets/portfolio/Marlow_Homepage.jpg
 ftImgSet:
   ftVidB: false
@@ -44,7 +44,7 @@ images:
         - videoB: false
           pSrc: no
           alt: Close up of the Marlow wordmark 'M' on a cream background.
-          srcb: src/assets/portfolio/Marlow_03_M.png
+          srcb: src/assets/portfolio/marlow_03_m.png
         - videoB: false
           pSrc: no
           alt: Three pillows stacked on top of eachother on a yellow background.
@@ -55,48 +55,58 @@ images:
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: a grid of accented glyphs from the wework typeface
+          alt: "Illustrations of a diverse group of people sleeping in different
+            positions. They are arranged in a horizontal formation on a
+            billboard with the text \"The People's Pillow\". "
           srcb: src/assets/portfolio/Marlow_05_Billboard.jpg
-        - videoB: false
-          pSrc: no
-          alt: type specimen detail of wework serif italic and regular
-          srcb: src/assets/portfolio/franklyn_wework_05_type_specimen-1.jpg
   - imgRow:
       mSize: large
-      layout: one-col
+      layout: three-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: illustration of a figure gesturing at a computer icon
-          srcb: src/assets/portfolio/franklyn_wework_05_type_specimen-1.jpg
+          alt: Illustration of a man sleeping on his side on a green background.
+          srcb: src/assets/portfolio/Marlow_06_SideSleeper.jpg
+        - videoB: false
+          pSrc: no
+          alt: Illustration of a woman sleeping on her back on a lilac background.
+          srcb: src/assets/portfolio/Marlow_07_BackSleepr.jpg
+        - videoB: false
+          pSrc: no
+          alt: Illustration of a  woman sleeping on her front on an orange background.
+          srcb: src/assets/portfolio/Marlow_08_FrontSleepr.jpg
   - imgRow:
       mSize: small
       layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
-          alt: a desk with an iMac displaying the wework website
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.34-3.jpg
+          alt: A billboard on a brick building (most likely brooklyn) that displays the
+            Marlow logo front and center. Surrounding the logo are illustrations
+            of people sleeping of all different shapes, sizes, and positions.
+          srcb: src/assets/portfolio/Marlow_09_BrooklynBillboard.jpg
   - imgRow:
       mSize: large
-      layout: one-col
-      imageRowContents:
-        - videoB: false
-          pSrc: no
-          alt: a photo of wework magazine
-          srcb: src/assets/portfolio/franklyn_wework_22_magazine-1.jpg
-  - imgRow:
-      mSize: small
       layout: two-col-even
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: A photo of the Marlow Pillow in use on a bed. Next to the bed is a bedside
+            table with a candle and lamp.
+          srcb: src/assets/portfolio/Marlow_10_PillowInContext.jpg
+        - videoB: false
+          pSrc: no
+          alt: Two Marlow pillows rolled up in their plastic wrappings on a green
+            background.
+          srcb: src/assets/portfolio/Marlow_11_PackagedPillow.jpg
+  - imgRow:
+      mSize: large
+      layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
           alt: a wework instagram post of a group working in a personal office
           srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.35-1.jpg
-        - videoB: false
-          pSrc: no
-          alt: an instagram post of a steaming cup of coffee
-          srcb: src/assets/portfolio/screenshot-2023-07-30-at-2.56-1.jpg
   - imgRow:
       mSize: large
       layout: one-col
