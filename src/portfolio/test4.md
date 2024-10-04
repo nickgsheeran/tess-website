@@ -140,7 +140,7 @@ images:
           srcb: src/assets/portfolio/Marlow_12_FindYourBestRest.jpg
   - imgRow:
       mSize: large
-      layout: one-col
+      layout: two-col-even
       imageRowContents:
         - videoB: false
           pSrc: no
