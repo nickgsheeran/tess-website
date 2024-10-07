@@ -27,7 +27,7 @@ ftImgSet:
   ftVidB: false
   ftAlt: A bright green image, with black text that says "World Parkinson's Day".
     Various icons are layered messily over the text and background.
-  ftImg: src/assets/portfolio/WPD_01_Header.png
+  ftImg: /assets/portfolio/WPD_01_Header.png
 images:
   - imgRow:
       mSize: large
