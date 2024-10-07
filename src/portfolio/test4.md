@@ -20,13 +20,12 @@ snipImgSet:
   snipVidB: false
   snipAlt: "An illustration of an adult woman sleeping on her bed, covered in a
     yellow blanket, with a black shadow monster under the bed. "
-  snipImg: /assets/portfolio/marlow_homepage_02.jpg
-  snipVidSource: /assets/portfolio/Marlow_Homepage.jpg
+  snipImg: src/assets/portfolio/marlow_homepage_02.jpg
 ftImgSet:
   ftVidB: false
   ftAlt: Illustration of lots of people sleeping in different positions on
     pillows, with different clothing and skin colors on a beige background.
-  ftImg: assets/portfolio/Marlow_01_SleeperPattern.png
+  ftImg: src/assets/portfolio/Marlow_01_SleeperPattern.png
 images:
   - imgRow:
       mSize: large

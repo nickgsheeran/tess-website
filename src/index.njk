@@ -30,7 +30,7 @@ layout: "base.njk"
               {# {% set url = ["", post.data.snipImgSet.snipImg] | join %} #}
               {# {% set url = post.data.snipImgSet.snipImg | replace("/assets/", "./src/assets/") %} #}
               {# {{ url | replace("assets/", "./src/assets/") }} #}
-              {% Image "./src" + post.data.snipImgSet.snipImg, post.data.snipImgSet.snipAlt %}
+              {% Image "./" + post.data.snipImgSet.snipImg, post.data.snipImgSet.snipAlt %}
             </a>
           {% endif %}
           {% include 'article-snippet.njk' %}

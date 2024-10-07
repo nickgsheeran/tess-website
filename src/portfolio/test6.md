@@ -3,7 +3,7 @@ snipImgSet:
   snipVidB: true
   snipAlt: A video flipping through different WeWork address' set in the WeWork
     serif typeface.
-  snipImg: /assets/portfolio/wework.png
+  snipImg: src/assets/portfolio/wework.png
   snipVidSource: /assets/portfolio/wework.mp4
 collabs: Creative Direction (Jelle Maréchal), Design (Tess Havas/Gabriel
   Ribes/Jelle Maréchal), Illustration (Tess Havas), Typography (Graham Bradley),
@@ -47,7 +47,7 @@ ftImgSet:
     image writing something on a piece of paper. There is a laptop in the top of
     the image. All of these objects showcase different elements of the new
     WeWork brand.
-  ftImg: /assets/portfolio/01.jpg
+  ftImg: src/assets/portfolio/01.jpg
 images:
   - imgRow:
       mSize: large
