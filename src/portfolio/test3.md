@@ -22,12 +22,12 @@ snipImgSet:
   snipVidB: false
   snipAlt: World Parkinson's day logo (A human being intersecting a tulip confined
     in a circle), on a bright yellow background.
-  snipImg: src/assets/portfolio/WPD_Homepage.jpg
+  snipImg: /assets/portfolio/WPD_Homepage.jpg
 ftImgSet:
   ftVidB: false
   ftAlt: A bright green image, with black text that says "World Parkinson's Day".
     Various icons are layered messily over the text and background.
-  ftImg: src/assets/portfolio/WPD_01_Header.png
+  ftImg: /assets/portfolio/WPD_01_Header.png
 images:
   - imgRow:
       mSize: large

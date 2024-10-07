@@ -31,7 +31,7 @@ collections:
         widget: "object"
         summary: 'snippet image settings'
         fields:
-        - { label: "Image / Video Poster, only paste in the copied image URL, do not select it! URL should start with 'src'", name: "snipImg", widget: "image" }
+        - { label: "Image / Video Poster", name: "snipImg", widget: "image" }
         - { label: "Video?", name: "snipVidB", widget: "boolean", default: false }
         - { label: "Source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 in this slot.", name: "snipVidSource", widget: "string", required: false}
         - { label: "Video WebM source, more optimized but optional", name: "snipWebmSource", widget: "string", required: false }
@@ -41,7 +41,7 @@ collections:
         widget: "object"
         summary: 'featured image settings'
         fields:
-        - { label: "Image / Video Poster, only paste in the copied image URL, do not select it! URL should start with 'src'", name: "ftImg", widget: "image" }
+        - { label: "Image / Video Poster", name: "ftImg", widget: "image" }
         - { label: "Video?", name: "ftVidB", widget: "boolean", default: false }
         - { label: "Source path. Select an asset from the media assets, copy its path and paste it here. Only use MP4 in this slot.", name: "ftVidSource", widget: "string", required: false }
         - { label: "Video WebM source path (more optimized but optional)", name: "ftWebmSource", widget: "string", required: false }

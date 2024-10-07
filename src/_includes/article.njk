@@ -13,7 +13,8 @@ permalink: "/{{ title | slugify }}/"
     <source src="{{ftImgSet.ftVidSource | replace("src", "")}}" type="video/mp4">
   </video>
   {% else %}
-  {% Image "./"+ftImgSet.ftImg, ftImgSet.ftAlt %}
+  {% set url2 = ftImgSet.ftImg | replace("src/", "") %}
+  {% Image "./src/"+url2, ftImgSet.ftAlt %}
 {% endif %}
 </figure>
 
