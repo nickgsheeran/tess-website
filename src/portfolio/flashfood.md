@@ -21,7 +21,7 @@ snipImgSet:
   snipAlt: Flashfood logo on a bright blue background with a lemon illustration
     layered on top.
   snipVidSource: src/assets/portfolio/Flashfood_Homepage.png
-  snipImg: src/assets/portfolio/Flashfood_Homepage.png
+  snipImg: /assets/portfolio/flashfood_homepage_02.jpg
 ftImgSet:
   ftVidB: true
   ftAlt: visual asset, needs alt text
