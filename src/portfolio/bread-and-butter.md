@@ -19,7 +19,7 @@ snipImgSet:
   snipVidB: false
   snipAlt: The letters "B & B" in black on a beige background. The first "B" is
     set in a simple sans serif, while the "&B" is set in a friendly script.
-  snipImg: src/assets/portfolio/BreadandButter_Homepage.png
+  snipImg: /assets/portfolio/bread-butter_homepage_02.jpg
 ftImgSet:
   ftVidB: false
   ftAlt: The bread and butter logo in black on a yellow background.
