@@ -39,7 +39,7 @@ collabs2:
   - "Illustration: Tess Havas"
   - "Case Photography: Kendall Mills"
 ftImgSet:
-  ftVidB: true
+  ftVidB: false
   ftAlt: Photo of a table with papers, notepads and pens scattered around it.
     There is an open notebook with the branded wework illustrations sketched
     into it, and a ruler on top. There is a hand in the bottom right of the
