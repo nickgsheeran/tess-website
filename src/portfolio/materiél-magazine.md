@@ -21,7 +21,7 @@ snipImgSet:
     center. Surrounding the title are illustrations of people, tires, cars,
     traffic cones, and animals, all scattered and flying chaotically through the
     air.
-  snipImg: /assets/portfolio/materiel_homepage.jpg
+  snipImg: /assets/portfolio/materiel_homepage_02.jpg
 ftImgSet:
   ftVidB: false
   ftAlt: Photo of an open magazine spread featuring an illustration by Tess Havas.
