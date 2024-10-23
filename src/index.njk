@@ -56,7 +56,6 @@ layout: "base.njk"
           {% include 'article-snippet.njk' %}
 
         {% elif post.data.singleImg == true %}
-          hello
           {% if post.data.snipImgSet.snipVidB %}
             <div class="hero-parent">
               <video playsinline loop="loop" autoplay="autoplay" muted poster="{{post.data.snipImgSet.snipImg}}">
