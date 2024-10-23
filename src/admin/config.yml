@@ -16,6 +16,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Date", name: "date", widget: "datetime" }
+      - { label: "Only a homepage image?", name: "singleImg", widget: "boolean", default: false }
       - { label: "Tags", name: "tags", widget: "list", default: ["post"] }
       - label: "Description"
         name: "d2"

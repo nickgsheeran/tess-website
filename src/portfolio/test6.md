@@ -11,6 +11,7 @@ collabs: Creative Direction (Jelle Maréchal), Design (Tess Havas/Gabriel
   Richardson), Case Photography (Kendall Mills)
 title: WeWork
 date: 2024-03-31T19:02:24.666Z
+singleImg: false
 tags: []
 d2:
   - Over the course of a decade, WeWork became the undisputed leader in

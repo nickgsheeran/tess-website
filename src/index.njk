@@ -12,9 +12,31 @@ layout: "base.njk"
 
 <section class="articles">
   <div class="container flow">
-    <ul role="list" class="articles__list flow">
+    <ul role="list" class="articles__list">
+      {% set count = 0 %}
+      {% set lr = true %}
+
       {%- for post in collections.post | reverse -%}
-        <li>
+
+        {% if lr == true %}
+          {% if count == 0 %}
+            <li class="hro-lg-left">
+          {% elif count == 1%}
+            <li class="hro-sm-right">
+          {% else %}
+            <li>
+          {% endif %}
+        {% elif lr == false %}
+          {% if count == 0 %}
+            <li class="hro-sm-left">
+          {% elif count == 1%}
+            <li class="hro-lg-right">
+          {% else %}
+            <li>
+          {% endif %}
+        {% endif %}
+
+        {% if post.data.singleImg == false %}
           {% if post.data.snipImgSet.snipVidB %}
             <a href="{{ post.url }}" class="hero-parent" aria-label="View project:{{ post.data.title }}">
               <video playsinline loop="loop" autoplay="autoplay" muted poster="{{post.data.snipImgSet.snipImg}}">
@@ -25,14 +47,43 @@ layout: "base.njk"
                 <source src="{{post.data.snipImgSet.snipVidSource | replace("src", "")}}" type="video/mp4">
               </video>
             </a>
-            {% else %}
+          {% else %}
             <a href="{{ post.url }}" aria-label="View project:{{ post.data.title }}">
               {% set url = post.data.snipImgSet.snipImg | replace("src/", "") %}
               {% Image "./src/" + url, post.data.snipImgSet.snipAlt %}
             </a>
           {% endif %}
           {% include 'article-snippet.njk' %}
-        </li>
+
+        {% elif post.data.singleImg == true %}
+          hello
+          {% if post.data.snipImgSet.snipVidB %}
+            <div class="hero-parent">
+              <video playsinline loop="loop" autoplay="autoplay" muted poster="{{post.data.snipImgSet.snipImg}}">
+                {% if post.data.snipImgSet.snipWebmSource %}
+                  <source src="{{post.data.snipImgSet.snipWebmSource | replace("src", "")}}" type="video/webm">
+                {% endif %}
+                {{post.data.snipImgSet.snipVidSource | replace("src", "")}}
+                <source src="{{post.data.snipImgSet.snipVidSource | replace("src", "")}}" type="video/mp4">
+              </video>
+            </div>
+            {% else %}
+            <div>
+              {% set url = post.data.snipImgSet.snipImg | replace("src/", "") %}
+              {% Image "./src/" + url, post.data.snipImgSet.snipAlt %}
+            </div>
+          {% endif%}
+        {% endif%}
+        
+      </li>
+      
+      {% if count == 2 %}
+      {% set count = 0 %}
+      {% set lr = not lr %}
+      {% else %}
+      {% set count = count+1 %}
+      {% endif %}
+
       {%- endfor -%}
     </ul>
   </div>

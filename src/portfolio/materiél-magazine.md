@@ -1,6 +1,7 @@
 ---
 title: Materiél Magazine
 date: 2023-06-03T12:12:11.773Z
+singleImg: false
 tags:
   - post
 d2:

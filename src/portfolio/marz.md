@@ -1,6 +1,7 @@
 ---
 title: Marz
 date: 2019-08-15T12:32:39.819Z
+singleImg: false
 tags: []
 d2:
   - >-

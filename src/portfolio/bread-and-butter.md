@@ -1,6 +1,7 @@
 ---
 title: Bread and Butter
 date: 2021-07-15T13:26:52.239Z
+singleImg: false
 tags: []
 d2:
   - >-

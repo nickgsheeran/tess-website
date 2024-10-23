@@ -1,6 +1,7 @@
 ---
 title: Flashfood
 date: 2022-11-17T14:06:38.089Z
+singleImg: false
 tags: []
 d2:
   - >-

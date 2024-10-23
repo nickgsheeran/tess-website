@@ -359,32 +359,37 @@ a {
 
 .articles__list {
   margin: 6rem 0;
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr); /* 12 equal columns */
+  column-gap: 40px; /* 40px gutter between columns */
+  margin: 40px; /* 40px margin around the grid */
+  list-style-type: none; /* Removes default bullet points for list */
+  padding: 0; /* Removes default padding for list */
   row-gap: 7em;
-  justify-content: space-evenly;
 }
 
-.articles__list > li {
-  width: var(--hro-mwidth);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  row-gap: 2em;
+.articles__list > li:nth-child(3n) {
+  grid-column: 1 / 13;
 }
-
-.articles__list > li:first-child {
-  width: 100%;
-}
-
-.articles__list > li:first-child > *, .articles__list > li:nth-child(4n) > * {
+.articles__list > li:nth-child(3n) > a > div > picture {
   max-width: var(--hro-mwidth);
   margin: auto;
 }
 
-.articles__list > li:nth-child(4n) {
-  width: 100%;
+.hro-lg-left {
+  grid-column: 1 / 7;
 }
+.hro-sm-left {
+  grid-column: 1 / 6;
+}
+.hro-lg-right {
+  grid-column: 7 / 13;
+}
+.hro-sm-right {
+  grid-column: 8 / 13;
+}
+
+
 
 /* //////////////////////
   Individual article page

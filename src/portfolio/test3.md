@@ -1,6 +1,7 @@
 ---
 title: World Parkinson's Day
 date: 2024-03-31T15:45:57.067Z
+singleImg: false
 tags:
   - post
 d2:
