@@ -8,7 +8,7 @@ disc: none
 snipImgSet:
   snipVidB: false
   snipAlt: visual asset, needs alt text
-  snipImg: /assets/portfolio/group-316124792.jpg
+  snipImg: /assets/portfolio/untitled_artwork-464_03.jpg
 ftImgSet:
   ftVidB: false
   ftAlt: visual asset, needs alt text
