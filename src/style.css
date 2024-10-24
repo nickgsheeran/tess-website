@@ -504,6 +504,7 @@ a {
 
 .snippet {
   text-align: center;
+  margin-top: 2em;
 }
 
 .snippet__image {
@@ -661,6 +662,10 @@ a {
     margin-top: 1.7rem;
   }
   
+  .snippet {
+    margin-top: 0.25em;
+  }
+
   .article-title {
     font-size: 2rem;
   }
