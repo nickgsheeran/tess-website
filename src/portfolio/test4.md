@@ -21,7 +21,7 @@ snipImgSet:
   snipVidB: false
   snipAlt: "An illustration of an adult woman sleeping on her bed, covered in a
     yellow blanket, with a black shadow monster under the bed. "
-  snipImg: src/assets/portfolio/marlow_homepage_02.jpg
+  snipImg: /assets/portfolio/marlow_homepage_03.png
 ftImgSet:
   ftVidB: false
   ftAlt: Illustration of lots of people sleeping in different positions on
