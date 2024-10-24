@@ -1,6 +1,6 @@
 ---
 title: World Parkinson's Day
-date: 2024-03-31T15:45:57.067Z
+date: 2024-03-28T16:45:57.067Z
 singleImg: false
 tags:
   - post
@@ -23,7 +23,7 @@ snipImgSet:
   snipVidB: false
   snipAlt: World Parkinson's day logo (A human being intersecting a tulip confined
     in a circle), on a bright yellow background.
-  snipImg: src/assets/portfolio/wpd_homepage.jpg
+  snipImg: /assets/portfolio/WPD_05_Poster.jpg
 ftImgSet:
   ftVidB: false
   ftAlt: A bright green image, with black text that says "World Parkinson's Day".
