@@ -1,6 +1,6 @@
 ---
 title: Flashfood
-date: 2022-11-17T14:06:38.089Z
+date: 2024-03-25T14:06:38.089Z
 singleImg: false
 tags: []
 d2:
@@ -22,7 +22,7 @@ snipImgSet:
   snipAlt: Flashfood logo on a bright blue background with a lemon illustration
     layered on top.
   snipVidSource: src/assets/portfolio/Flashfood_Homepage.png
-  snipImg: /assets/portfolio/flashfood_homepage_02.jpg
+  snipImg: /assets/portfolio/flashfood_homepage_03.jpg
 ftImgSet:
   ftVidB: true
   ftAlt: visual asset, needs alt text
