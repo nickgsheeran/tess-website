@@ -23,5 +23,5 @@ images:
         - videoB: false
           pSrc: no
           alt: visual asset, needs alt text
-          srcb: earrash_11.jpg
+          srcb: src/assets/portfolio/earrash_11.jpg
 ---
