@@ -68,25 +68,32 @@ permalink: "/{{ title | slugify }}/"
         {%- endfor -%}
       </div>
     {%- endfor -%}
-    {% set thetitles = [] %}
-    {% for post in collections.post | reverse %}
-      {% set thetitles = thetitles.concat(post.data.title) %}
-    {% endfor %}
-    {% set i = 0 %}
-    {% set j = 0 %}
-    {% for post in thetitles %}
-      {% set i = i + 1 %}
-      {% if title == post %}
-      {% set j = i %}
-      {% endif %}
-    {% endfor %}
-    {% set thetitlesLength = thetitles | length %}
-    {%set sorted = collections.post | reverse%}
-    {% if thetitlesLength == j%}
-      <a href="{{sorted[0].url}}" id="nextBtn">Next Project</a> 
+
+  {% set truePosts = [] %}
+  {% for post in collections.post | reverse %}
+    {% if post.data.singleImg == false %}
+      {% set truePosts = truePosts.concat(post)%}
+    {% endif%}
+  {% endfor %}
+
+  {% set count = 0 %}
+  {% set key = 0 %}
+  {% for post in truePosts %}
+    {% if title == post.data.title %}
+      {% set key = count %}
     {% else %}
-      <a href="{{sorted[j].url}}" id="nextBtn">Next Project</a> 
+      {% set count = count + 1%}
     {% endif %}
+  {% endfor %}
+
+  {% set truePostsLength = truePosts | length %}
+  {% set truePostsLast = truePostsLength - 1 %}
+  {% set next = key + 1 %}
+  {% if truePostsLast == key %}
+    <a href="{{truePosts[0].url}}" id="nextBtn">Next Project</a>
+  {% else %}
+    <a href="{{truePosts[next].url}}" id="nextBtn">Next Project</a> 
+  {% endif %}
 
   </section>
 
