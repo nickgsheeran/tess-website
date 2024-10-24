@@ -1,5 +1,5 @@
 ---
-title: illo sample
+title: Mirror Illustration
 date: 2024-03-30T15:18:28.109Z
 singleImg: true
 tags:
