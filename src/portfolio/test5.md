@@ -1,6 +1,6 @@
 ---
 title: Framework
-date: 2024-03-31T19:01:42.497Z
+date: 2024-03-26T20:01:42.497Z
 singleImg: false
 tags: []
 d2:
