@@ -1,6 +1,6 @@
 ---
 title: In the Dirt Illustration
-date: 2024-11-01T16:34:31.202Z
+date: 2025-03-05T16:34:31.202Z
 singleImg: true
 tags:
   - post
