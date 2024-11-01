@@ -21,9 +21,9 @@ collabs2:
   - "Creative Direction: Jelle Maréchal"
   - "Design: Jelle Maréchal, Tess Havas"
 snipImgSet:
-  snipVidB: false
+  snipVidB: true
   snipAlt: Warm gradient made of yellow, orange and purple with texture.
-  snipImg: /assets/portfolio/framework_homepage_02.jpg
+  snipImg: src/assets/portfolio/framework_homepage.mp4
 ftImgSet:
   ftVidB: true
   ftAlt: Framework Logo spinning on a warm gradient background.
