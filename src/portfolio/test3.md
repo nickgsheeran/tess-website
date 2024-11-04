@@ -5,15 +5,21 @@ singleImg: false
 tags:
   - post
 d2:
-  - >-
-    In 2021, Franklyn was engaged to  create a unified brand identity for World
-    Parkinson’s Day, a global alliance of organizations from 80 countries
-    seeking to raise awareness and fight Parkinson’s disease. These designs
-    represent one of the original concepts I developed for the brand. The final
-    direction can be explored on the World Parkinson’s Day website.
-
-
-    Mindful that this brand would be utilized by hundreds of individuals across several nonprofit organizations, our goal was to create an infallible system that would maintain its integrity regardless of who handled it. For this reason, we opted for default fonts that are universally accessible and colors derived from the standard palette found in software such as Adobe Illustrator. To complement these more rudimentary elements, we crafted a logo and illustration style that juxtaposes perfect geometry with raw edges. 
+  - In 2021, Franklyn was engaged to create a cohesive brand identity for World
+    Parkinson’s Day, uniting a global network of organizations across 80
+    countries in their mission to raise awareness and combat Parkinson’s
+    disease. The designs on this page reflect one of the initial concepts I
+    developed for the brand, with the final result showcased on the World
+    Parkinson’s Day website.
+  - >
+    Knowing that this brand system would be handled by countless individuals
+    across various nonprofits, we aimed to build a foolproof design that could
+    hold up no matter who used it. To ensure accessibility and consistency, this
+    direction featured universal default fonts and colors based on standard
+    palettes from software like Adobe Illustrator. Balancing these practical
+    choices, we designed a logo and illustration style that merged clean,
+    precise geometry with raw, organic edges for a distinctive and approachable
+    look.
 disc: Branding, Illustration
 collabs2:
   - "Creative Direction: Michael Freimuth"
