@@ -4,17 +4,19 @@ date: 2024-03-23T20:01:42.497Z
 singleImg: false
 tags: []
 d2:
-  - >-
-    Framework is a new brick and mortar wellness space focused on the health
+  - Framework is a new brick and mortar wellness space focused on the health
     benefits of contrast therapy, a practice that involves alternating between
     hot and cold temperatures. Inspired by his own journey of rejuvenation after
     a fast-paced career in tech, Framework's founder aimed to create a brand
     that transcends fitness trends, elevating the simple practice of traditional
     Nordic sauna and cold plunge from one-off treatments into a routine
     practice.
-
-
-    Highlighting the radical simplicity of contrast therapy's fundamental elements—hot air and cold water—to visualize the brand, we employed immersive, temperature-inspired gradients that bring the experience to life. The brand strikes a balance between approachability and intellect, creating an inviting environment that communicates the science behind sauna in a simple and straightforward way.
+  - Highlighting the radical simplicity of contrast therapy's fundamental
+    elements—hot air and cold water—to visualize the brand, we employed
+    immersive, temperature-inspired gradients that bring the experience to life.
+    The brand strikes a balance between approachability and intellect, creating
+    an inviting environment that communicates the science behind sauna in a
+    simple and straightforward way.
 disc: Branding
 collabs2:
   - "Designed at: Franklyn"
