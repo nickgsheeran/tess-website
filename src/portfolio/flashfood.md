@@ -26,7 +26,7 @@ snipImgSet:
 ftImgSet:
   ftVidB: true
   ftAlt: visual asset, needs alt text
-  ftImg: src/assets/portfolio/Flashfood_01_FallingFood.mp4
+  ftImg: /assets/portfolio/flashfood_01_fallingfood.png
   ftWebmSource: ""
   ftVidSource: src/assets/portfolio/Flashfood_01_FallingFood.mp4
 images:
