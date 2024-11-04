@@ -4,15 +4,18 @@ date: 2023-03-16T14:26:52.239Z
 singleImg: false
 tags: []
 d2:
-  - >-
-    Bread and Butter is a Brooklyn bakery started by Autumn Moultrie and Brian
-    Villanaeua of Back Alley Bread. They are known for their angel doughnuts,
-    savory pastries, Jamaican beef patties, and other comfort foods inspired by
-    their childhood and communities. The final branding has yet to be released,
-    but this was an initial direction that I worked on for the bakery. 
-
-
-    The main component of the brand is the type system which uses two typefaces, one (GT America) a simple grotesque sans that feels professional and buttoned up nodding to Autumn and Brian’s experience in fine dining, and Blitz, a script font that evokes a sense of playfulness and nostalgia nodding to the whimsical and comforting nature of their baked goods. The system is finalized with illustrations to nod to their impeccable perfectionism and sense of craft.
+  - Bread and Butter is a Brooklyn bakery founded by Autumn Moultrie and Brian
+    Villanueva of Back Alley Bread. Renowned for their angel doughnuts, savory
+    pastries, Jamaican beef patties, and other comfort foods rooted in their
+    childhoods and communities, the bakery has quickly gained attention. While
+    the final branding is still in progress, this was one of the initial
+    concepts I developed for them.
+  - "The core of the brand is its type system, featuring two distinct typefaces:
+    GT America, a clean, professional grotesque sans that reflects Autumn and
+    Brian’s fine dining background, and Blitz, a playful script font that adds a
+    touch of nostalgia, echoing the warmth and whimsy of their baked goods. The
+    system is rounded out with illustrations that highlight their meticulous
+    craftsmanship and dedication to perfection."
 disc: Branding, Illustration
 collabs2:
   - "Project Management: Ashley Van Belle"
