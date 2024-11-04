@@ -28,7 +28,7 @@ ftImgSet:
   ftAlt: visual asset, needs alt text
   ftImg: src/assets/portfolio/Flashfood_01_FallingFood.mp4
   ftWebmSource: ""
-  ftVidSource: src/assets/portfolio/flashfood_01_fallingfood.png
+  ftVidSource: src/assets/portfolio/Flashfood_01_FallingFood.mp4
 images:
   - imgRow:
       mSize: small
