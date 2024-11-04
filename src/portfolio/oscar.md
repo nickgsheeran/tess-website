@@ -60,8 +60,16 @@ images:
             text says "Virtually all the health care you need for $0."
           srcb: src/assets/portfolio/oscar_04_billboard.jpg
   - imgRow:
-      mSize:
-        - small
-      layout:
-        - one-col
+      mSize: large
+      layout: two-col-even
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: Photo of an Oscar health care kit on a wooden table. There is also a hand
+            holding a thermometer.
+          srcb: src/assets/portfolio/oscar_05_photo.jpg
+        - videoB: false
+          pSrc: no
+          alt: Illustration of a parachute carrying a pill bottle on a white background.
+          srcb: src/assets/portfolio/oscar_06_parachute.png
 ---
