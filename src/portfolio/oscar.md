@@ -33,13 +33,35 @@ ftImgSet:
   ftImg: /assets/portfolio/oscar_01_header.jpg
 images:
   - imgRow:
-      mSize:
-        - small
-      layout:
-        - one-col
+      mSize: large
+      layout: one-col
       imageRowContents:
         - videoB: false
           pSrc: no
           alt: Illustration of people shopping inside a grocery store.
           srcb: src/assets/portfolio/oscar_02_grocerystore.jpg
+  - imgRow:
+      mSize: small
+      layout: one-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: Realistic Illustrations of 20+ people in different positions on a white
+            background.
+          srcb: src/assets/portfolio/oscar_03_people.png
+  - imgRow:
+      mSize: large
+      layout: one-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: Photo of a billboard with an Oscar ad on it. The ad has an illustration of
+            a woman reading on a couch with a doctor's office behind her. The
+            text says "Virtually all the health care you need for $0."
+          srcb: src/assets/portfolio/oscar_04_billboard.jpg
+  - imgRow:
+      mSize:
+        - small
+      layout:
+        - one-col
 ---
