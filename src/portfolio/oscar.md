@@ -4,6 +4,17 @@ date: 2022-11-11T13:38:07.265Z
 singleImg: false
 tags:
   - post
+d2:
+  - "Since 2014, Oscar has been a trailblazer in modern healthcare, known for
+    its playful, user-first branding. In 2020, I was brought on to create a
+    fresh illustration style that evolved beyond their previous whimsical look.
+    This new direction aimed to spotlight what sets Oscar apart: its warmth and
+    sincerity. The illustrations took on a more realistic tone, mirroring the
+    true makeup of Oscar’s diverse audience and celebrating their genuine
+    experiences. The focus shifted from caricatures to relatable, imperfect
+    glimpses of real life, embracing the messiness and authenticity that
+    resonate with people. Paired with the updated brand, these illustrations
+    convey warmth, sincerity, and the genuine human touch that defines Oscar."
 disc: Illustration, Branding
 collabs2:
   - "Illustration: Tess Havas"
