@@ -5,12 +5,15 @@ singleImg: false
 tags:
   - post
 d2:
-  - >-
-    Already a direct-to-consumer success story in bedding, Brooklinen saw an
-    opportunity to expand further through creating “The Marlow Pillow.”
-
-
-    The visual identity we created for Marlow centers their belief that there are many different types of sleepers, and Marlow's pillow works the best for most. A simple yet expressive illustration style allows the brand to showcase a diversity of sleeping styles and, when appropriate, ventures into whimsy. With a wordmark and color palette that carefully balances modernity and nostalgia, the brand strives to be appealing to anyone in search of good sleep, whether young or old.
+  - Already a direct-to-consumer hit in the bedding world, Brooklinen set out to
+    reach even more customers by launching “The Marlow Pillow.”
+  - The visual identity we created for Marlow centers their belief that there
+    are many different types of sleepers, and Marlow's pillow works the best for
+    most. A simple yet expressive illustration style allows the brand to
+    showcase a diversity of sleeping styles and, when appropriate, ventures into
+    whimsy. With a wordmark and color palette that carefully balances modernity
+    and nostalgia, the brand strives to be appealing to anyone in search of good
+    sleep, whether young or old.
 disc: Branding, Illustration
 collabs2:
   - "Designed at: Franklyn"
