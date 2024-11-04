@@ -9,11 +9,11 @@ d2:
     reach even more customers by launching “The Marlow Pillow.”
   - The visual identity we created for Marlow centers their belief that there
     are many different types of sleepers, and Marlow's pillow works the best for
-    most. We used a simple yet expressive illustration style that highlights
-    different ways people sleep, with room for a touch of whimsy when the moment
-    calls for it. The wordmark and color palette strike a balance between modern
-    and nostalgic, creating a brand that resonates with anyone seeking quality
-    rest, no matter their age.
+    most. A simple yet expressive illustration style allows the brand to
+    showcase a diversity of sleeping styles and, when appropriate, ventures into
+    whimsy. With a wordmark and color palette that carefully balances modernity
+    and nostalgia, the brand strives to be appealing to anyone in search of good
+    sleep, whether young or old.
 disc: Branding, Illustration
 collabs2:
   - "Designed at: Franklyn"
