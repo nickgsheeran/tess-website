@@ -23,7 +23,8 @@ collabs2:
 snipImgSet:
   snipVidB: true
   snipAlt: Warm gradient made of yellow, orange and purple with texture.
-  snipImg: src/assets/portfolio/framework_homepage.mp4
+  snipImg: /assets/portfolio/Framework_Homepage.jpg
+  snipVidSource: src/assets/portfolio/framework_homepage.mp4
 ftImgSet:
   ftVidB: true
   ftAlt: Framework Logo spinning on a warm gradient background.
