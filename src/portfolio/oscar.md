@@ -140,4 +140,26 @@ images:
           alt: Illustration of a man laying on a couch, playing with his toddler on a
             white background.
           srcb: src/assets/portfolio/oscar_17_illustration_wb.png
+  - imgRow:
+      mSize: large
+      layout: two-col-even
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: A page of the Oscar app displaying illustrated icons on a bright blue
+            background.
+          srcb: src/assets/portfolio/oscar_18_icons.png
+        - videoB: false
+          pSrc: no
+          alt: A photo of a mother and son using a stethoscope in a bedroom.
+          srcb: src/assets/portfolio/oscar_19_photo.jpg
+  - imgRow:
+      mSize: small
+      layout: one-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: A detailed illustration of a man and pregnant woman dancing at the end of a
+            hospital hallway.
+          srcb: src/assets/portfolio/oscar_20_hospital.jpg
 ---
