@@ -72,4 +72,35 @@ images:
           pSrc: no
           alt: Illustration of a parachute carrying a pill bottle on a white background.
           srcb: src/assets/portfolio/oscar_06_parachute.png
+  - imgRow:
+      mSize: small
+      layout: one-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: Photo of Oscar pamphlets.
+          srcb: src/assets/portfolio/oscar_07_pamphlet.jpg
+  - imgRow:
+      mSize: large
+      layout: two-col-even
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: Illustration of an older woman texting on a mustard colored background.
+            There is a speech bubble coming out of the phone with an
+            illustration of a pill inside.
+          srcb: src/assets/portfolio/oscar_08_member.jpg
+        - videoB: false
+          pSrc: no
+          alt: Illustration of a person massaging an aching shoulder on a peach colored
+            background.
+          srcb: src/assets/portfolio/oscar_09_member.jpg
+  - imgRow:
+      mSize: small
+      layout: one-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: Oscar's website on a black background.
+          srcb: src/assets/portfolio/oscar_10_website.jpg
 ---
