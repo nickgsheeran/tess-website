@@ -103,4 +103,41 @@ images:
           pSrc: no
           alt: Oscar's website on a black background.
           srcb: src/assets/portfolio/oscar_10_website.jpg
+  - imgRow:
+      mSize: large
+      layout: three-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: Illustration of a person sitting in the blue Oscar 'O', texting on a white
+            background.
+          srcb: src/assets/portfolio/oscar_11_illustration_wb.png
+        - videoB: false
+          pSrc: no
+          alt: Illustration of the text "$3" made out of pills on a white background.
+          srcb: src/assets/portfolio/oscar_12_illustration_wb.png
+        - videoB: false
+          pSrc: no
+          alt: Illustration of a doctor knocking on the front door of a house on a white
+            background.
+          srcb: src/assets/portfolio/oscar_13_illustration_wb.png
+  - imgRow:
+      mSize: large
+      layout: three-col
+      imageRowContents:
+        - videoB: false
+          pSrc: no
+          alt: Illustration of the head of a man with glasses on a white background. There
+            is a cloud around his head.
+          srcb: src/assets/portfolio/oscar_13_illustration_wb.png
+        - videoB: false
+          pSrc: no
+          alt: Illustration of a phone, member card, and stethoscope on a white
+            background.
+          srcb: src/assets/portfolio/oscar_16_illustration_wb.png
+        - videoB: false
+          pSrc: no
+          alt: Illustration of a man laying on a couch, playing with his toddler on a
+            white background.
+          srcb: src/assets/portfolio/oscar_17_illustration_wb.png
 ---
