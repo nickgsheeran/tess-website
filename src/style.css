@@ -372,7 +372,7 @@ a {
 .articles__list > li:nth-child(3n) {
   grid-column: 1 / 13;
 }
-.articles__list > li:nth-child(3n) > a > div > picture {
+.articles__list > li:nth-child(3n) > a > div > picture, .articles__list > li:nth-child(3n) > div > picture {
   max-width: var(--hro-mwidth);
   margin: auto;
 }

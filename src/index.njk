@@ -38,6 +38,7 @@ layout: "base.njk"
 
         {% if post.data.singleImg == false %}
           {% if post.data.snipImgSet.snipVidB %}
+            {# <a href="{{ post.url }}" class="hero-parent" aria-label="View project:{{ post.data.title }}"> #}
             <a href="{{ post.url }}" class="hero-parent" aria-label="View project:{{ post.data.title }}">
               <video playsinline loop="loop" autoplay="autoplay" muted poster="{{post.data.snipImgSet.snipImg}}">
                 {% if post.data.snipImgSet.snipWebmSource %}
@@ -57,7 +58,7 @@ layout: "base.njk"
 
         {% elif post.data.singleImg == true %}
           {% if post.data.snipImgSet.snipVidB %}
-            <div class="hero-parent">
+            {# <div class="hero-parent"> #}
               <video playsinline loop="loop" autoplay="autoplay" muted poster="{{post.data.snipImgSet.snipImg}}">
                 {% if post.data.snipImgSet.snipWebmSource %}
                   <source src="{{post.data.snipImgSet.snipWebmSource | replace("src", "")}}" type="video/webm">
@@ -65,12 +66,10 @@ layout: "base.njk"
                 {{post.data.snipImgSet.snipVidSource | replace("src", "")}}
                 <source src="{{post.data.snipImgSet.snipVidSource | replace("src", "")}}" type="video/mp4">
               </video>
-            </div>
+            {# </div> #}
             {% else %}
-            <div>
               {% set url = post.data.snipImgSet.snipImg | replace("src/", "") %}
               {% Image "./src/" + url, post.data.snipImgSet.snipAlt %}
-            </div>
           {% endif%}
         {% endif%}
         
