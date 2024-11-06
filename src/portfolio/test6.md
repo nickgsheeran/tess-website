@@ -5,6 +5,7 @@ snipImgSet:
     serif typeface.
   snipImg: src/assets/portfolio/wework.png
   snipVidSource: /assets/portfolio/wework.mp4
+  snipWebmSource: src/assets/portfolio/wework_homepage.webm
 collabs: Creative Direction (Jelle Maréchal), Design (Tess Havas/Gabriel
   Ribes/Jelle Maréchal), Illustration (Tess Havas), Typography (Graham Bradley),
   Strategy (Angie Shih/Eve Wallack), Account Management (Eric Brown/Patrick
