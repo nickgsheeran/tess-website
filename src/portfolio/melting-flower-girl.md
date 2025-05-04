@@ -6,11 +6,11 @@ tags:
   - post
 snipImgSet:
   snipVidB: false
-  snipAlt: visual asset, needs alt text
+  snipAlt: Illustration of girl slowly melting into flowers across 4 panels
   snipImg: /assets/portfolio/meltingflower.png
 ftImgSet:
   ftVidB: false
-  ftAlt: visual asset, needs alt text
+  ftAlt: Illustration of girl slowly melting into flowers across 4 panels
   ftImg: /assets/portfolio/meltingflower.png
 images:
   - imgRow:
@@ -22,4 +22,5 @@ images:
         - videoB: false
           pSrc: no
           alt: visual asset, needs alt text
+          srcb: src/assets/portfolio/meltingflower.png
 ---
